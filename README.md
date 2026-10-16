@@ -273,12 +273,14 @@ If you use this work, please cite:
 
 ## Authors
 
-[Yipeng Li](https://www.linkedin.com/in/yipengli/) ·
-[Ashutosh Hathidara](https://www.linkedin.com/in/ashutosh1919/) ·
+[Yipeng Li](https://www.linkedin.com/in/yipengli/)\* ·
+[Ashutosh Hathidara](https://www.linkedin.com/in/ashutosh1919/)\* ·
 [Jane Lo](https://www.linkedin.com/in/janeel/) ·
 [Harshavardhan Abichandani](https://www.linkedin.com/in/harsh-abhi/) ·
 [Gunraj Singh](https://www.linkedin.com/in/gunraj-singh-85b70023b/) ·
 [Atin Ghosh](https://www.linkedin.com/in/atin-ghosh-3a8b5831/)
+
+<sub>\* Equal contribution.</sub>
 
 ## Support, Feedback, Contributing
 

@@ -5,6 +5,7 @@
 **Generating coherent enterprise data by letting an LLM agent *act* inside policy-enforcing simulated systems — no schemas, no templates, no per-domain authoring.**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.10549-b31b1b.svg)](https://arxiv.org/abs/2610.10549)
+[![OpenReview](https://img.shields.io/badge/OpenReview-d9jIdRauHh-8c1b13.svg)](https://openreview.net/forum?id=d9jIdRauHh)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/synthesis-through-simulation)](https://api.reuse.software/info/github.com/SAP/synthesis-through-simulation)

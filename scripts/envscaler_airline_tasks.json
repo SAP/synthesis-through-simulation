@@ -1,0 +1,502 @@
+[
+  {
+    "task_id": "envscaler_000",
+    "task": "For user Eva Anderson (user_id: silver_eva_5), complete the following:\n\n1. Update her active one-way economy reservation to add an additional passenger, increase total baggage to 3 (with at least 1 nonfree baggage), and ensure insurance is set to \"yes.\" Ensure the new passenger details comply with reservation rules.\n2. Change the flight(s) on this reservation to a different available direct flight on the same route and date, paying or refunding any fare difference using her available payment methods.\n3. After all reservation updates, attempt to send Eva a new travel certificate worth $75. If she already holds an active certificate, resolve the conflict according to business rules before issuing the new one.\n4. Using Eva\u2019s gift card and the new certificate (if issued), book a new round-trip economy reservation for Eva and one additional passenger, with a total of 2 baggages (at least 1 nonfree), and add travel insurance. Use both payment methods as needed to cover the total cost.",
+    "generated_at": "2026-05-03T04:58:36.179420"
+  },
+  {
+    "task_id": "envscaler_001",
+    "task": "A gold-tier customer, Alice Johnson, needs to make multiple changes across her account to prepare for an upcoming trip and resolve account issues:\n\n1. For Alice\u2019s active round-trip economy reservation, update the flights to new dates on the same route and increase her total baggages by one, ensuring that all payment differences (additional fare and baggage fees) are charged to her gift card first, then her credit card if needed.\n2. Replace the passenger list on this reservation with Alice, her son Tommy Johnson, and her daughter Sophie Johnson, complying with the maximum passenger rules for economy class.\n3. Alice\u2019s account currently holds more than one active travel certificate, which is against policy. Remove all but the highest-value certificate from her account to restore compliance. \n\nEnsure that all modifications follow the system\u2019s business rules, and that payment records and reservation details are updated accordingly.",
+    "generated_at": "2026-05-03T04:58:43.695606"
+  },
+  {
+    "task_id": "envscaler_002",
+    "task": "For user Alice Johnson (gold member), perform the following actions:\n\n1. Identify Alice's current active round-trip reservation in economy class. Replace the existing flights in this reservation with a different round-trip on the same origin and destination routes but for new dates at least one week later than the original. Also, update the passenger list for this reservation to include Alice and a new passenger named \"Liam Johnson\" (born 2012-06-15). Ensure the total baggages remains unchanged and no insurance is added.\n\n2. Cancel Alice's active one-way business class reservation that has the greatest number of baggages among her one-way business class reservations. Ensure the refund is processed to the original payment methods associated with the reservation.\n\n3. For user David Wilson (silver member), ensure he has no more than one active certificate payment method. If he has more than one, remove all but the certificate with the highest amount. Then, book a new one-way reservation for David from JFK to ORD in economy class, with travel insurance and one checked baggage, using his remaining certificate as the primary payment method and his Amex credit card for any remaining balance. Add David as the only passenger on this reservation.",
+    "generated_at": "2026-05-03T04:58:52.604136"
+  },
+  {
+    "task_id": "envscaler_003",
+    "task": "Silver-tier member David Wilson wants to book a round-trip economy reservation for himself and one companion from JFK to LAX, with travel insurance and one checked bag per passenger. He wishes to use a travel certificate for part of the payment and his Amex credit card for the remainder. However, David currently holds multiple travel certificates, which is not allowed. First, resolve David\u2019s certificate overage so that he holds only one active certificate. Then, complete the booking as described, ensuring both passengers are included. After booking, David realizes he entered his companion\u2019s name incorrectly and needs it updated on the reservation. Finally, David wants to add one more nonfree checked bag to the reservation and pay any additional fees using his remaining payment methods.",
+    "generated_at": "2026-05-03T04:59:00.779832"
+  },
+  {
+    "task_id": "envscaler_004",
+    "task": "Alice Johnson (user_id: gold_alice_1) needs to update one of her active round-trip reservations to a different set of flights on the same route and change the passenger list to include a new passenger. She also wants to add one extra checked bag and apply travel insurance to this reservation. Next, because she currently holds multiple active certificates, consolidate all her certificate balances into a single new certificate and remove the old certificates from her account. Finally, ensure all additional charges from the reservation changes are paid using the new consolidated certificate, and if the certificate balance is insufficient, pay the remainder with her gift card.",
+    "generated_at": "2026-05-03T04:59:07.829722"
+  },
+  {
+    "task_id": "envscaler_005",
+    "task": "For user David Wilson (user_id: silver_david_4), perform the following series of actions to bring his account into compliance and update his reservation:\n\n1. Identify and remove all but one of David Wilson\u2019s active certificate payment methods, so that he holds no more than one certificate. Ensure that the remaining certificate has the highest amount among those previously associated with his account.\n\n2. For David\u2019s active round-trip reservation (reservation_id: A97F5E), update the passenger list to include only David Wilson and Mia Wilson, ensuring all passenger information is accurate.\n\n3. Increase the total number of baggages on reservation A97F5E from 1 to 3, and set nonfree_baggages to 2. Ensure any additional payment required is processed using David\u2019s available payment methods.\n\n4. After the above changes, send a new $75 travel certificate to David Wilson\u2019s account, replacing his existing certificate if one is present, so that he ends up holding only this newly issued certificate.",
+    "generated_at": "2026-05-03T04:59:15.640175"
+  },
+  {
+    "task_id": "envscaler_006",
+    "task": "Gold member Alice Johnson wants to update her round-trip reservation (reservation ID not provided) to change both outbound and return flights to different dates on the same routes, add one additional checked baggage, and replace the current passenger list with herself and her saved family member Tommy Johnson. To pay any fare or baggage difference, she wants to use a travel certificate; however, as she currently exceeds the maximum allowed certificates, remove all but one certificate from her account before applying the new one to the reservation. In addition, she requests that her cancelled one-way basic economy reservation (if any exists) be fully refunded to the original payment methods.",
+    "generated_at": "2026-05-03T04:59:24.906599"
+  },
+  {
+    "task_id": "envscaler_007",
+    "task": "You are assisting a travel manager handling bookings for Alice Johnson (gold member) and Henry Brown (regular member). Complete the following steps:\n\n1. For Alice Johnson, update her round-trip reservation (do not create a new one). Change both outbound and return flights to different dates on the same routes, add one additional passenger, and increase the total baggage count by one. Ensure the passenger list does not exceed the allowed limit for her cabin. Adjust the payment as needed to reflect any price or baggage fee differences.\n2. For Henry Brown, cancel his active business class one-way reservation. Ensure all applicable refund policies are followed, and the refund is processed to his original payment methods.\n3. After cancellation, use any newly available certificate or refund to book a new round-trip reservation for Henry Brown. The new reservation should include two passengers, one checked bag, and travel insurance. Use a mix of any available certificate and credit card for payment as needed, ensuring all rules for certificate usage and reservation creation are met.",
+    "generated_at": "2026-05-03T04:59:31.478597"
+  },
+  {
+    "task_id": "envscaler_008",
+    "task": "For the gold member Alice Johnson, select any one of her active reservations. First, update the reservation to add one additional non-free baggage, ensuring that payment for the new baggage fee is prioritized from her available gift card balance, and only use her credit card if her gift card funds are insufficient. Next, attempt to send Alice a new travel certificate for $100; if this fails due to the rule that users may only hold one active certificate at a time, resolve the issue by removing or consolidating her existing certificates so that only one remains, then successfully issue the new certificate. Finally, cancel the reservation you updated earlier, ensuring that all payments, including those for the extra baggage, are refunded to the original payment methods.",
+    "generated_at": "2026-05-03T04:59:38.954192"
+  },
+  {
+    "task_id": "envscaler_009",
+    "task": "Alice Johnson (user: gold_alice_1) is preparing for an upcoming trip but must update her travel arrangements to comply with airline policies and personal changes. Complete the following sub-tasks:\n\n1. For Alice's active round-trip reservation in economy class (reservation_id: DF3303), replace all current passengers with a new set consisting of exactly four passengers: Tommy Johnson, Sophie Johnson, Emma Thompson, and Robert Thompson. Ensure the new passenger list complies with cabin limits.  \n2. Increase the total baggages on this reservation to 3 and set the number of nonfree baggages to 2. Make sure baggage rules are followed and any required payment adjustments are processed.\n3. Alice has more than one active certificate in her payment methods, which violates airline policy. Consolidate all her certificates by cancelling all but the highest-value one. Transfer the combined value of the cancelled certificates into her gift card balance (gc_alice_500) and ensure she holds only one active certificate in her payment methods after this process.\n4. Add travel insurance to Alice's reservation DF3303, and process any additional payment required using her available payment methods, prioritizing gift card usage if possible.\n5. Finally, attempt to cancel Alice's basic economy reservation FFD5D1. If cancellation is allowed under the airline's flight status rules, process the cancellation and ensure appropriate refunds are issued to the original payment method(s). If cancellation is not allowed, provide a reason (based on flight status) and make no changes.",
+    "generated_at": "2026-05-03T04:59:51.738232"
+  },
+  {
+    "task_id": "envscaler_010",
+    "task": "For silver member David Wilson, perform the following coordinated actions:\n1. Update his active one-way reservation (reservation_id: ZFA004) by replacing the current passenger with two new passengers (ensuring the total does not exceed the cabin\u2019s allowed limit), and increase the total baggage count from 1 to 2, with both bags marked as nonfree.\n2. Cancel his currently active round-trip reservation (reservation_id: A97F5E), ensuring all refunds are processed properly according to system rules.\n3. Issue David a new travel certificate worth $75. Since a user can only have one active certificate at a time, ensure that any existing certificate payment methods for David are removed or deactivated prior to issuing the new one.",
+    "generated_at": "2026-05-03T04:59:58.355505"
+  },
+  {
+    "task_id": "envscaler_011",
+    "task": "Alice Johnson, a gold member, has recently changed her travel plans and requests the following actions:  \n1. Update her active round-trip reservation to use new flight dates of her choice, ensuring that the replacement flights are available and not currently in progress or landed.  \n2. Add one additional baggage to this updated reservation, making sure any required payment adjustments are processed correctly.  \n3. For one of her active basic_economy reservations, replace all current passengers with no more than three new passengers of your choosing, complying with the basic_economy cabin limit.  \n4. Issue a new travel certificate worth $150 to Alice\u2019s account. Since she currently holds multiple active certificates in violation of the policy, ensure only one valid certificate remains after your action.  \n5. Cancel one of Alice\u2019s active business class one-way reservations, ensuring that the cancellation is allowed and that an appropriate refund is issued.",
+    "generated_at": "2026-05-03T05:00:06.501854"
+  },
+  {
+    "task_id": "envscaler_012",
+    "task": "Gold member Alice Johnson wants to make several changes to her current travel plans and help a friend. First, she wants to update her round-trip reservation to add two more passengers, but since her current cabin is economy, she must ensure the total number of passengers does not exceed nine. After adding the new passengers, Alice needs to increase the total number of baggages by two for this reservation. If any additional payment is required, she wants to use her gift card first and pay any remaining balance with her Visa credit card. Next, Alice decides to cancel one of her active business class one-way reservations. Finally, she wants to send a travel certificate worth $75 to silver member Eva Anderson, but only if Eva does not already have an active certificate in her account. Complete all these actions as requested, following all relevant business rules and payment constraints.",
+    "generated_at": "2026-05-03T05:00:14.279581"
+  },
+  {
+    "task_id": "envscaler_013",
+    "task": "For gold member Alice Johnson, select one of her active round-trip economy reservations. Update this reservation by replacing the existing passenger list with Alice Johnson and two additional new passengers (ensuring the total does not exceed the cabin\u2019s maximum). Then, change the flights to the same routes but on new valid dates. Increase the total baggages to three, with at least two nonfree baggages, and add travel insurance if it is not already present. Ensure that all required payment adjustments are completed using her available payment methods; if any refund results in a certificate but Alice already holds the maximum allowed certificates, remove excess certificates so she will only hold one active certificate after the process is complete.",
+    "generated_at": "2026-05-03T05:00:24.581448"
+  },
+  {
+    "task_id": "envscaler_014",
+    "task": "For user Alice Johnson (gold member), complete the following sequence of actions:\n\n1. Resolve any violations of the \u201cone certificate per user\u201d rule by removing all but her most valuable certificate from her payment methods, ensuring she only retains a single active certificate.\n2. Book a new round-trip reservation for Alice between JFK and SFO in business class for herself and one additional passenger, including two checked baggages and travel insurance. Use her remaining certificate as the primary payment source; if the certificate amount is insufficient, use her gift card to cover the remainder.\n3. After booking, update the new reservation to add a third passenger, and increase the total number of checked baggages to three, with all three baggages marked as nonfree.\n4. Finally, cancel Alice\u2019s existing active one-way reservation in business class, ensuring all payments are properly refunded to her original payment methods.",
+    "generated_at": "2026-05-03T05:00:32.193281"
+  },
+  {
+    "task_id": "envscaler_015",
+    "task": "A silver member, Eva Anderson, wishes to cancel her existing active one-way reservation and receive a travel certificate for the refunded amount. However, Eva already has a gift card and a certificate in her account, and you must ensure she holds at most one certificate by the end of the process, resolving any conflicts as needed. After cancellation, use the newly issued certificate and her gift card to book a new round-trip economy reservation for Eva and one additional passenger, with two total baggages and travel insurance included. Immediately after booking, update the reservation to add a third passenger, ensuring all cabin and passenger rules are followed and payment is adjusted if necessary.",
+    "generated_at": "2026-05-03T05:00:42.918953"
+  },
+  {
+    "task_id": "envscaler_016",
+    "task": "Gold member Alice Johnson needs several updates to her travel arrangements. First, cancel her active business class reservation with reservation ID ZFA001, ensuring all cancellation conditions are satisfied and refunds are processed to her original payment methods. Next, for her active round-trip economy reservation DF3303, change both flights to the next available direct flights between the same airports on the same dates, making sure any price differences are correctly charged or refunded. After updating the flights, increase the total baggages for this reservation by 1 and ensure any additional fees are paid using her available gift card balance. Then, replace the passenger list on reservation DF3303 with a new single passenger: \"Emily Johnson\", date of birth 2000-09-15. Finally, if Alice has more than one active certificate payment method, remove all but one so she complies with the rule of holding at most one certificate at a time, and then issue her a new travel certificate worth $150.",
+    "generated_at": "2026-05-03T05:00:51.071898"
+  },
+  {
+    "task_id": "envscaler_017",
+    "task": "Alice (user_id: gold_alice_1) wants to update her active business cabin reservation (reservation_id: ZFA001) by changing it to a different available direct flight on the same route and date, and replacing the passenger with \u201cTommy Johnson\u201d (dob unknown, so you must look it up). Increase the total baggages on this reservation to 2, ensuring any additional baggage fees are properly applied to her existing gift card payment method. Next, Alice also wants to send a $100 travel certificate to David (user_id: silver_david_4). However, David already has more than one active certificate, which is not allowed; before sending the new certificate, resolve any certificate conflicts by removing all but one of David\u2019s certificates. Make sure all changes are completed successfully and reflect the updated state.",
+    "generated_at": "2026-05-03T05:00:58.827073"
+  },
+  {
+    "task_id": "envscaler_018",
+    "task": "For user \"gold_alice_1\", perform the following:\n\n1. Review her active reservations and update the reservation with the most passengers by increasing total baggage count by 2 and replacing the passenger list with a new set of up to 4 passengers (ensure the new list complies with the cabin's passenger limit rule and all business constraints).  \n2. Identify any of her active reservations that are eligible for cancellation (none of the associated flights are currently flying or landed), and proceed to cancel the reservation with the fewest passengers.  \n3. \"gold_alice_1\" currently holds multiple active travel certificates, which violates the business rule of only one active certificate per user. Resolve this by consolidating all her certificate balances into a single certificate (create a new certificate with the total amount, remove the old certificates, and ensure only one certificate remains active for her).",
+    "generated_at": "2026-05-03T05:01:05.685733"
+  },
+  {
+    "task_id": "envscaler_019",
+    "task": "For user Eva Anderson (user_id: silver_eva_5), perform the following:\n\n1. Replace the current passenger list on her active reservation (ZFA005) with a new list containing only Eva Anderson and one other person, ensuring the new list complies with the cabin's passenger limits.\n2. Increase the total baggage count for this reservation by one, making sure that nonfree_baggages does not exceed the total number of baggages and paying any additional fees required.\n3. Change the flight(s) associated with reservation ZFA005 to a different available flight on the same route and date, adjusting for any price difference as needed.\n4. Cancel reservation ZFA005, ensuring that cancellation rules are followed and that any applicable refunds are processed.\n5. After the cancellation is complete, issue a travel certificate to Eva Anderson, provided she does not already hold an active certificate.",
+    "generated_at": "2026-05-03T05:01:15.369412"
+  },
+  {
+    "task_id": "envscaler_020",
+    "task": "For user \"gold_alice_1\", first resolve the violation of having multiple active certificate payment methods by ensuring she holds only one active certificate and removing or canceling the others as appropriate. Next, for her active business cabin reservation \"ZFA001\", update the passenger list to add two new passengers (ensuring the total does not exceed the cabin limit) and increase the total baggages to 3. Finally, book a new round-trip economy reservation for Alice between JFK and LAX for any available dates, using only her valid payment methods after the certificate correction.",
+    "generated_at": "2026-05-03T05:01:23.803984"
+  },
+  {
+    "task_id": "envscaler_021",
+    "task": "Carol Thompson (user: gold_carol_3) wishes to cancel one of her active reservations and use the resulting refund or certificate to book a new round-trip reservation for herself and two additional passengers in economy cabin, with three total checked baggages and travel insurance. After booking, update the passenger list on the new reservation to replace one passenger with a different individual. Ensure that all business rules regarding payment methods, certificate limits, passenger and baggage restrictions, and reservation statuses are strictly followed throughout the process.",
+    "generated_at": "2026-05-03T05:01:30.067095"
+  },
+  {
+    "task_id": "envscaler_022",
+    "task": "For user \"gold_alice_1\", complete the following:\n\n1. Update her active round-trip reservation to change the return flight to a different available date, increase the total baggages by one (with the added baggage set as nonfree), and replace the last passenger on the reservation with a new passenger named \"Sophia Johnson\" (date of birth: 2000-06-14).\n\n2. Cancel her active one-way basic economy reservation, ensuring all airline rules are followed, and process any necessary refunds.\n\n3. Review Alice's payment methods and, if she holds more than one active certificate, remove all but the certificate with the highest balance.\n\n4. Book a new one-way business class reservation for Alice from JFK to SFO for the earliest available date, for two passengers (\"Alice Johnson\" and \"Sophia Johnson\" with the DOB above), with two total baggages (one nonfree), and apply travel insurance. Use any remaining certificate as payment first, then charge the balance to her VISA credit card.",
+    "generated_at": "2026-05-03T05:01:40.980711"
+  },
+  {
+    "task_id": "envscaler_023",
+    "task": "For gold member Alice Johnson, modify her active round-trip reservation as follows:  \nFirst, update the flights to new dates, ensuring the route remains the same and the new flights are available. Next, add a second passenger to the reservation, making sure the total number of passengers does not exceed the allowed cabin limit. Then, increase the total baggage count to two and pay for any resulting non-free baggage fees. Add travel insurance if it is not already included. If the total amount due increases, cover the difference using Alice's available payment methods, ensuring no payment method is overdrawn. Finally, if Alice currently holds more than one active travel certificate, leave her with only one and remove or deactivate any extras, so she complies with the single-certificate rule. Make sure all changes are correctly reflected in the reservation and payment records.",
+    "generated_at": "2026-05-03T05:01:50.358391"
+  },
+  {
+    "task_id": "envscaler_024",
+    "task": "Alice Johnson needs to adjust her upcoming travel plans. First, cancel her currently active business class reservation for a one-way flight, ensuring that she receives a refund via a new travel certificate if she does not already hold one. Next, book a new round-trip reservation for Alice and one additional passenger in economy class between JFK and SFO, including two checked bags and adding travel insurance. Use her available payment methods, prioritizing any new or existing certificate and then her gift card. After booking, update the reservation to replace the second passenger with another traveler, and then increase the total number of checked bags to three.",
+    "generated_at": "2026-05-03T05:02:00.043827"
+  },
+  {
+    "task_id": "envscaler_025",
+    "task": "For gold member Bob Martinez, cancel his currently active business class reservation that has the highest total baggage count. After the cancellation and refund, immediately book a new round-trip economy reservation for Bob on the same route but with three passengers (Bob, Linda Martinez, and Carlos Martinez), two total baggages, and travel insurance included, using the refunded payment method(s) and any available certificate in his account. \n\nSeparately, for regular member Henry Brown, send him a new $75 travel certificate, but only if he does not already hold an active certificate; otherwise, do not send a certificate. \n\nFinally, for silver member Grace Lee, update the passenger list of her active business class reservation so that it includes herself and an additional new passenger named Olivia Lee (born 2015-06-15), ensuring all business class passenger constraints are satisfied.",
+    "generated_at": "2026-05-03T05:02:06.820553"
+  },
+  {
+    "task_id": "envscaler_026",
+    "task": "Gold member Alice Johnson needs to reschedule her upcoming round-trip reservation to new available flights on the same route, as one of her original passengers can no longer travel and will be replaced by another family member. After updating the flights and replacing the passenger, adjust the total baggage count on the reservation to reflect that the group will now need two checked bags instead of the previous amount. If these changes result in a payment difference, ensure the correct payment adjustment is made; if a refund is owed but Alice already holds the maximum allowed number of active travel certificates, resolve this so a new certificate can be issued for the refund.",
+    "generated_at": "2026-05-03T05:02:17.245337"
+  },
+  {
+    "task_id": "envscaler_027",
+    "task": "For user \"gold_alice_1\", identify her most recent active round-trip reservation and cancel it, ensuring all refund payments are processed according to system rules. Before canceling, if Alice already holds an active certificate and the system would issue a new certificate as part of the refund, resolve the certificate constraint by transferring or removing any existing certificate from her account. After cancellation, immediately book a new one-way business class reservation for Alice from JFK to LAX, departing on the next available flight, with 2 total baggages (1 nonfree), and include travel insurance. Pay for the new reservation using a combination of her available gift card balance and credit card. Finally, update the new reservation to add an additional passenger, using the passenger details of any saved passenger on Alice\u2019s account or, if none are saved, by adding a new passenger with the name \"Linda Johnson\" and an appropriate date of birth.",
+    "generated_at": "2026-05-03T05:02:25.539888"
+  },
+  {
+    "task_id": "envscaler_028",
+    "task": "For user Alice Johnson (gold membership), perform the following set of updates and actions:\n\n1. Identify one of Alice's active round-trip reservations in economy cabin that includes at least two passengers. Update this reservation by replacing the current passenger list with a new list of exactly three passengers, ensuring all passenger limits and system rules are respected.\n\n2. For the same reservation, increase the total baggage count by one, making sure nonfree_baggages does not exceed the updated total, and process any additional payment required using Alice's available gift card balance.\n\n3. After successfully updating the reservation, cancel one of Alice's active one-way business cabin reservations, ensuring that the cancellation is allowed under system rules (e.g., no flight in the reservation is currently flying or landed). Process any resulting refunds according to the environment\u2019s business logic.\n\n4. Finally, issue a new travel certificate worth $150 to Alice. If she already holds an active certificate, ensure that she is eligible by resolving the certificate constraint as required by the system before issuing the new one.",
+    "generated_at": "2026-05-03T05:02:33.349105"
+  },
+  {
+    "task_id": "envscaler_029",
+    "task": "For user Alice Johnson (user_id: gold_alice_1), resolve her multiple certificate issue by ensuring she holds only one active certificate payment method. Then, modify her reservation ZFA001 by updating its flights to a new one-way route of your choice, increasing the total baggage count to 2, adding Tom Johnson as an additional passenger, and updating insurance to 'yes'. Finally, ensure any payment difference resulting from the reservation update is covered using Alice\u2019s remaining certificate payment method, adjusting payment history as needed.",
+    "generated_at": "2026-05-03T05:02:39.703409"
+  },
+  {
+    "task_id": "envscaler_030",
+    "task": "For the user \"Silver David Wilson\" (user_id: silver_david_4), perform the following:\n\n1. Identify and cancel one of David's active economy cabin reservations that is eligible for cancellation (no flights currently flying or landed). Ensure the refund is processed according to business rules.\n2. Issue a travel certificate to David's account for the refund amount, ensuring that David holds at most one active certificate after this operation (remove or deactivate any excess certificates if necessary).\n3. Book a new round-trip reservation for David between JFK and ORD in economy cabin, for David and one additional passenger of your choice, including 2 total baggages (1 nonfree), and apply travel insurance. Use the newly issued certificate and any remaining required payment from David's existing payment methods.\n4. After booking, update the new reservation to replace the passenger list with two new passengers (different from the original ones), and adjust baggage counts to 3 total baggages (2 nonfree), making sure all payment/refund operations are correctly handled.",
+    "generated_at": "2026-05-03T05:02:46.183028"
+  },
+  {
+    "task_id": "envscaler_031",
+    "task": "For user \"gold_alice_1\", perform the following operations:\n\n1. For her active round-trip reservation in economy cabin, update the passenger list to include Alice herself and one additional passenger with the name \"Lucas Johnson\" and date of birth \"2008-03-15\". Also, increase the total baggage count by one, and ensure that at least one baggage is marked as non-free.\n2. Identify and cancel Alice's active one-way business class reservation that has the largest number of total baggages. Ensure the system issues the proper refund to her original payment method(s).\n3. Alice currently holds multiple active travel certificates, which violates business rules. Remove all but the highest-value certificate from her account so that she holds only one certificate, and ensure her payment methods reflect this correction.",
+    "generated_at": "2026-05-03T05:02:53.241848"
+  },
+  {
+    "task_id": "envscaler_032",
+    "task": "Alice Johnson (gold member) wishes to rebook her travel plans as follows:  \nFirst, resolve any violation of the rule that limits users to only one active certificate payment method by ensuring Alice holds at most one certificate, refunding or removing any excess certificates as needed. Then, cancel her active reservation with the smallest reservation ID, making sure it is eligible for cancellation and that all associated refunds are processed correctly. Next, book a new round-trip reservation for Alice and two saved passengers of her choice, departing from JFK to SFO in economy class, with two total baggages and travel insurance included. Payment for the new reservation should use a combination of her available gift card and credit card methods. Finally, send Alice a new travel certificate worth $100 as compensation for the cancellation, ensuring the certificate rule is not violated.",
+    "generated_at": "2026-05-03T05:03:02.690086"
+  },
+  {
+    "task_id": "envscaler_033",
+    "task": "For user \"silver_david_4\", perform the following operations:\n\n1. Reconcile the user's travel certificates so that only one active certificate remains; remove all excess certificates from their account, keeping the one with the highest amount.\n2. Update reservation \"A97F5E\" by increasing the total baggages from 1 to 2 and replacing the passenger list with exactly three passengers: David Wilson, Mia Wilson, and a new passenger named Olivia Wilson (with appropriate details). Ensure that the reservation continues to comply with cabin and baggage rules.\n3. Attempt to cancel reservation \"E84C6B\" for the user. If cancellation is disallowed due to flight status, do not proceed; otherwise, complete the cancellation and ensure any required refunds are processed.\n4. Book a new round-trip reservation for \"silver_david_4\" in economy cabin for two passengers (David Wilson and Olivia Wilson) between any two different airports of your choice, using both the user's remaining certificate and any available gift card balance as payment methods. Apply travel insurance to this reservation.",
+    "generated_at": "2026-05-03T05:03:09.978561"
+  },
+  {
+    "task_id": "envscaler_034",
+    "task": "Alice Johnson (gold member) wants to update one of her active reservations to new flight dates, change the passenger list, and adjust baggage counts. However, she also wishes to use a travel certificate for payment, but currently holds more than one active certificate, violating the environment\u2019s rule that a user may have only one active certificate at a time. Complete the following steps:\n\n1. Ensure Alice Johnson holds only one active certificate payment method by removing all but one certificate from her account.\n2. Select any one of Alice\u2019s active reservations and change its flights to new dates on the same route, ensuring the reservation remains valid and payment differences are handled.\n3. Update the chosen reservation\u2019s passenger list to exactly two passengers of your choice, ensuring the new list complies with the reservation\u2019s cabin rules.\n4. Adjust the total and nonfree baggage counts on the same reservation so that total_baggages is at least 2, and nonfree_baggages does not exceed total_baggages.\n5. Update the reservation\u2019s payment methods so that the remaining certificate is used as part of the payment (using its available balance), with any remaining amount split to her other available payment methods as needed.\n\nAll changes must comply with the environment\u2019s business rules, including certificate limitations, cabin passenger limits, and baggage constraints.",
+    "generated_at": "2026-05-03T05:03:19.201180"
+  },
+  {
+    "task_id": "envscaler_035",
+    "task": "For user Alice Johnson (gold membership), perform the following sequence of actions:\n\n1. For one of Alice's active round-trip reservations in economy cabin, update both flights to different available flights on the same routes and replace the current passenger list with up to three new passengers of your choice, making sure to adhere to the maximum passenger limit for economy class.  \n2. Increase the number of nonfree baggages on this reservation by one, ensuring that the total does not exceed the total baggage count. Pay any additional fees required using Alice's available gift card(s), and if the gift card balance is insufficient, use her credit card to pay the remainder.  \n3. Cancel another one of Alice's active one-way reservations, making sure cancellation is allowed according to business rules, and ensure that the refund is processed back to her original payment methods.  \n4. Revoke or remove all of Alice's existing travel certificates so that she holds none. Then, issue a new travel certificate worth $250 to Alice's account.",
+    "generated_at": "2026-05-03T05:03:28.514186"
+  },
+  {
+    "task_id": "envscaler_036",
+    "task": "For user David Wilson (silver status), identify and remove any excess certificate payment methods so that he holds only one active certificate, keeping the one with the highest remaining amount. After resolving this, update his active round-trip economy reservation to replace the passenger list with two new passengers, increase total_baggages from 1 to 3 and set nonfree_baggages to 2. Make sure payment adjustments for the baggage upgrade are completed using his available payment methods, prioritizing the remaining certificate if sufficient.",
+    "generated_at": "2026-05-03T05:03:35.821978"
+  },
+  {
+    "task_id": "envscaler_037",
+    "task": "For user David Wilson (silver membership), perform the following:\n\n1. Select any one of his currently active economy cabin reservations. Replace the passenger list with two new passengers, ensuring the passenger limit is not exceeded.\n2. On the same reservation, increase the total baggages to 3 and set nonfree_baggages to 2. Ensure that payment for any additional baggage fees is made using his available payment methods.\n3. Since David already holds at least one active certificate, remove all certificate payment methods associated with his account, ensuring the one-certificate-per-user rule is enforced.\n4. Attempt to send a new travel certificate worth $75 to David\u2019s account. If sending fails due to certificate constraints, resolve any issues so that the certificate can be successfully sent.\n5. Cancel any other active reservation under David\u2019s account that is not the one modified above, making sure to process any required refunds to the original payment methods, and only if the cancellation is allowed by the system\u2019s business rules.",
+    "generated_at": "2026-05-03T05:03:44.192157"
+  },
+  {
+    "task_id": "envscaler_038",
+    "task": "For user Alice Johnson (gold membership), perform the following:\n\n1. Resolve the situation where Alice currently holds multiple active travel certificates, violating the environment rule of one certificate per user. Consolidate all of Alice\u2019s certificate balances into a single certificate with the total combined value, ensuring any excess certificates are removed so that only one certificate remains on her account.\n\n2. Update Alice\u2019s active round-trip reservation (reservation ID DF3303) by adding one additional passenger to the reservation, ensuring you do not exceed the maximum allowed passengers for the cabin class. Also, increase the total baggage count by one. Adjust the payment to cover the additional passenger and baggage, using Alice\u2019s available certificate and gift card balances first, with any remaining amount charged to her credit card.\n\n3. Cancel Alice\u2019s active one-way business class reservation (reservation ID ZFA001), ensuring the reservation is eligible for cancellation under the business rules. Process the refund so that all payments are",
+    "generated_at": "2026-05-03T05:03:55.796730"
+  },
+  {
+    "task_id": "envscaler_039",
+    "task": "For user Henry Brown (user_id: reg_henry_8), complete the following sequence of modifications:\n\n1. Select one of Henry's active \"economy\" cabin reservations and update it by replacing the entire passenger list with exactly three new passengers of your choice, ensuring all names are unique. Then, update the reservation to set total baggages to 2 and nonfree baggages to 1, ensuring this complies with all baggage rules.\n2. If Henry currently has more than one certificate payment method, remove all but the certificate with the highest amount from his payment methods. If Henry has no certificate at all, send him a new certificate valued at $75.\n3. Book a new one-way reservation for Henry from SFO to SEA in business cabin for two new passengers of your choice, selecting a flight date with available seats. Pay for this reservation using both his largest certificate (if any) and his gift card, splitting the payment as needed.\n4. Cancel one of Henry's existing active reservations, but only if none of its flights are currently flying or have already landed. Ensure the cancellation process issues appropriate refunds to the original payment methods.",
+    "generated_at": "2026-05-03T05:04:04.941896"
+  },
+  {
+    "task_id": "envscaler_040",
+    "task": "For user Carol Thompson (gold membership), perform the following:\n\n1. Cancel her currently active one-way basic economy reservation, ensuring that all eligibility rules for cancellation are satisfied.\n2. With the refunded payment, book a new round-trip business class reservation for Carol Thompson and one additional passenger, choosing available flights between her original reservation\u2019s origin and any other destination, and selecting appropriate dates and payment methods to cover the total fare.\n3. Since Carol already holds a travel certificate but requires a higher certificate amount for the new booking, ensure she has only one active certificate by removing or consolidating any existing certificates as necessary, then send a new certificate to her account for the required amount.\n4. After booking, update the new reservation to include two checked baggages and apply travel insurance if not already selected. \n\nEnsure all changes comply with business rules, and all payments and refunds are reflected in Carol\u2019s account.",
+    "generated_at": "2026-05-03T05:04:12.007782"
+  },
+  {
+    "task_id": "envscaler_041",
+    "task": "For user Eva Anderson (silver member), make the following changes to one of her active reservations:  \n1. Change the flights on her reservation to a new available round-trip between different airports, using the same cabin class and applying any payment adjustments as needed.  \n2. Replace all passengers on this reservation with a new list, ensuring the new passenger count is within allowed limits for the cabin class.  \n3. Increase both the total and nonfree baggage counts by at least one, ensuring that the nonfree baggage count does not exceed the total, and pay any additional fees if required.  \n4. Add travel insurance to the reservation if it is not already included.  \n5. Finally, send a new travel certificate worth $75 to Frank Garcia (silver member), ensuring he does not already have an active certificate before issuing.",
+    "generated_at": "2026-05-03T05:04:20.302934"
+  },
+  {
+    "task_id": "envscaler_042",
+    "task": "Gold member Alice Johnson needs to update her travel plans as follows:  \n1. For one of her active round-trip reservations, change both outbound and return flights to different available flights on the same routes, and update the passenger list so that she and one additional person are traveling (ensuring the total passenger count does not exceed the cabin's limit).  \n2. Adjust the reservation\u2019s baggage count so that the total baggages increases by one, and set the number of nonfree baggages to be exactly half the new total (rounding down if necessary).  \n3. Alice currently holds multiple active certificate payment methods, but only one is allowed. Transfer one of her certificates to a regular member who does not currently hold any certificate, and cancel or remove her remaining extra certificates so that she holds only one.  \n4. Update the payment methods for the reservation so that all available certificate and gift card balances are used first for payment, with any remainder charged to her credit card. Ensure that all required refunds or additional charges from the earlier changes are processed accordingly.",
+    "generated_at": "2026-05-03T05:04:30.616129"
+  },
+  {
+    "task_id": "envscaler_043",
+    "task": "For the user Alice Johnson:\n\n1. Identify and remove all but one of her active travel certificates from her account, ensuring only a single certificate remains as permitted by business rules.\n\n2. For her currently active reservation with the most passengers, update the reservation by replacing the entire passenger list with a new set of passengers (of your choice), and increase the total number of non-free baggages on the reservation by two (ensuring non-free baggages do not exceed total baggages; increase total baggages if necessary).\n\n3. Book a new one-way reservation for Alice Johnson for a flight from JFK to SFO on the next available date, adding one passenger (who is not Alice herself), and pay for the reservation using any remaining certificate and her gift card funds as needed.",
+    "generated_at": "2026-05-03T05:04:39.156593"
+  },
+  {
+    "task_id": "envscaler_044",
+    "task": "Gold member Alice Johnson needs to update her active round-trip reservation to accommodate a change in travel plans. First, change the reservation\u2019s flights to new available flights on the same routes. Next, add one family member as a new passenger to the reservation, ensuring the total passenger count stays within the allowed maximum for the cabin. Then, increase the total baggage count by one, making sure any required additional payment is split between her credit card and available gift card. Also, enable travel insurance for the reservation. Before finalizing, ensure only one certificate is active on Alice\u2019s account, using the largest-value certificate as partial payment for any new charges, and removing any extra certificates if necessary. Finally, immediately cancel the reservation, making sure all eligible refunds are processed to the original payment sources.",
+    "generated_at": "2026-05-03T05:04:46.457741"
+  },
+  {
+    "task_id": "envscaler_045",
+    "task": "For user Alice Johnson (gold membership), perform the following:\n\n1. For her round-trip economy reservation, change both flights to the next available flights on the same route, ensuring the reservation remains in round-trip format and the new flights are on different dates from the originals. Complete any necessary payment adjustments for fare differences.\n2. For her business class one-way reservation, update the passenger list so that it includes Alice and one additional adult passenger, making sure the total passenger count is permitted for the cabin type.\n3. For her round-trip economy reservation with insurance, increase the number of nonfree baggages by one, ensuring payment for any additional baggage fee is processed.\n4. Before sending Alice a new travel certificate worth $100, ensure she has no active certificate; if she does, remove or cancel it as necessary to comply with the one-certificate rule, then add the new certificate.\n5. Cancel Alice's active basic economy one-way reservation if and only if none of its flights are currently flying or landed, and process any eligible refunds to the original payment methods.",
+    "generated_at": "2026-05-03T05:04:55.070740"
+  },
+  {
+    "task_id": "envscaler_046",
+    "task": "For user Alice Johnson (user_id: gold_alice_1), perform the following sequence of operations:\n\n1. Identify one of Alice's active reservations that is eligible for cancellation (i.e., ensure none of its flights are currently flying or landed), and cancel it.  \n2. Book a new one-way reservation for Alice on a different route from the cancelled reservation, using a mix of her available payment methods (e.g., credit card and gift card) to cover the total fare. Ensure the reservation includes at least two passengers (one must be Alice), and book it in the economy cabin with two total baggages, one of which is nonfree.  \n3. After booking, update the new reservation to add travel insurance and increase the nonfree baggage count by one (so nonfree baggages = 2), ensuring all fees are paid using her existing payment methods.  \n4. Finally, send Alice a new travel certificate. If she already holds an active certificate, take all necessary steps to ensure she only holds one at the end (e.g., refund or remove existing certificates as needed according to business rules).  \n\nEnsure that all business rules and constraints are respected throughout these operations.",
+    "generated_at": "2026-05-03T05:05:04.168432"
+  },
+  {
+    "task_id": "envscaler_047",
+    "task": "For the user \"silver_david_4,\" perform the following sequence of actions to align with their new travel needs and bring their account into compliance with business rules:\n\n1. For reservation \"A97F5E\" (currently a round-trip, economy, 2-passenger reservation), update the flights to different dates on the same routes and replace the passenger list with two new passengers of your choice. Ensure all changes conform to system constraints and that any payment differences are handled using David's available payment methods.\n2. For reservation \"ZFA004\" (currently a one-way, economy booking), increase both the total baggages and nonfree baggages by one each, making sure that nonfree baggages do not exceed total baggages and that any additional fees are paid using David's available payment methods.\n3. Cancel reservation \"E8A816\" if it is active and eligible for cancellation according to system rules. Ensure that any due refunds are processed to the original payment method(s).\n4. Review David's account for active certificate payment methods. If more than one active certificate exists, remove certificates as needed so that only one remains, consolidating balances if necessary into a single certificate so that David retains the total value, and ensuring no loss of funds.",
+    "generated_at": "2026-05-03T05:05:13.896537"
+  },
+  {
+    "task_id": "envscaler_048",
+    "task": "Alice Johnson (gold member) has more than one active travel certificate, which violates company policy. First, ensure Alice holds only one active certificate by removing or refunding all excess certificates, keeping only the certificate with the highest value. Next, update her round-trip reservation (reservation ID: DF3303) by adding two additional passengers and increasing total baggages to three. Finally, book a new one-way business cabin reservation for Alice and one companion from JFK to SFO on Alice\u2019s behalf, including two total baggages and travel insurance, ensuring that her remaining active certificate is fully applied toward payment and any remaining amount is charged to her available gift card.",
+    "generated_at": "2026-05-03T05:05:22.186199"
+  },
+  {
+    "task_id": "envscaler_049",
+    "task": "Identify every user who currently holds more than one travel certificate. For each such user, remove all but one certificate from their account, ensuring compliance with the one-certificate-per-user rule. Next, for one of these users, cancel one eligible active reservation and process all necessary refunds. Then, book a new round-trip business class reservation for that user and one additional passenger, using their remaining certificate and another payment method to split the payment; include travel insurance and at least one nonfree baggage. For a different user who also had excess certificates, update one of their active reservations to add an extra nonfree baggage and replace the passenger list, making sure the new list fits the cabin passenger limit. Finally, for any user with a cancelled reservation who does not already have a travel certificate, issue a new travel certificate to their account, while respecting the one-certificate-per-user restriction.",
+    "generated_at": "2026-05-03T05:05:30.337484"
+  },
+  {
+    "task_id": "envscaler_050",
+    "task": "Alice Johnson (user_id: gold_alice_1) wants to update her active round-trip reservation DF3303. First, resolve any issues with her holding multiple certificate payment methods by removing or refunding all but one active certificate so that only one remains. Next, update reservation DF3303 by adding a new passenger (her child), increasing the total baggage count by one, and applying travel insurance if it is not already present. If any additional payment is required due to these changes, use her remaining certificate payment method, and charge any remaining balance to her other available payment methods. Ensure all updates comply with passenger limits, baggage rules, and payment constraints.",
+    "generated_at": "2026-05-03T05:05:38.718709"
+  },
+  {
+    "task_id": "envscaler_051",
+    "task": "Gold member Alice Johnson decides to reorganize her upcoming travel. First, cancel one of her active reservations only if all flights in that reservation are eligible for cancellation according to business rules. Next, for a different active reservation of hers, update both the passenger list (replace all existing passengers with a new list of up to three people of your choice) and increase the total and nonfree baggages by one each, ensuring the new nonfree baggages count does not exceed the total. Also, update this reservation to include travel insurance if it is not already covered. Make sure any additional charges or refunds are handled using Alice\u2019s available payment methods, prioritizing gift cards and certificates before credit cards.",
+    "generated_at": "2026-05-03T05:05:48.148662"
+  },
+  {
+    "task_id": "envscaler_052",
+    "task": "For gold member Alice Johnson, perform the following set of actions to manage her upcoming travel:\n\n1. Identify Alice's active round-trip reservation and change both flights to the next available flights between the same origin and destination, ensuring the new flights are in the same cabin class. After updating the flights, increase her total baggage count by one and ensure at least one of the bags is non-free. Update the payment records to reflect any fare or baggage fee difference using her available gift card balance, and if the gift card is insufficient, cover the remainder using her credit card.\n\n2. For Alice's oldest active one-way business class reservation, cancel it. Ensure that any refunds are processed to the original payment methods. After cancellation, issue a new travel certificate to Alice for $150. If Alice holds more than one active certificate after this operation, resolve the violation by retaining only the single most recently issued certificate and removing all others from her account.\n\n3. Finally, update the passenger list on Alice's remaining active basic economy reservation to exactly three passengers with unique names, adhering to the cabin's passenger limit.\n\nEnsure all updates comply with membership rules, payment and refund handling, baggage constraints, and the certificate-per-user policy.",
+    "generated_at": "2026-05-03T05:05:57.482648"
+  },
+  {
+    "task_id": "envscaler_053",
+    "task": "David Wilson (silver membership) wants to make major changes to his travel plans:\n\n1. Cancel one of his active reservations (your choice) if all flights in it are eligible for cancellation under business rules, ensuring all appropriate refunds are processed to his original payment methods.\n2. For a different one of David\u2019s active reservations, replace all passengers with a new list of up to three people of your choice, ensuring the reservation remains valid according to its cabin class and passenger count rules.\n3. David currently holds multiple travel certificates, but only one is allowed; refund or remove all but one, retaining the certificate with the highest value.\n4. Book a new one-way business class reservation for David, for two saved passengers of your choice, departing from any available origin to any available destination on a near-term date. Use David\u2019s remaining certificate and his gift card to pay, include travel insurance, and add two baggages (1 free, 1 nonfree).",
+    "generated_at": "2026-05-03T05:06:07.987215"
+  },
+  {
+    "task_id": "envscaler_054",
+    "task": "Identify all users who currently hold more than one certificate payment method. For each such user, remove all but the highest-value certificate from their payment methods. Then, for each affected user, select one of their active reservations and update it to include travel insurance if it is not already present, and increase the total baggages by one (ensuring nonfree_baggages does not exceed the new total). Adjust the payment history of the updated reservation to reflect any additional charges using only the user\u2019s remaining valid payment methods. Finally, issue a new certificate to a silver or regular member who does not already have a certificate, ensuring the new certificate is added to their payment methods.",
+    "generated_at": "2026-05-03T05:06:17.972004"
+  },
+  {
+    "task_id": "envscaler_055",
+    "task": "For user Alice Johnson (gold membership), perform the following:\n\n1. Select one of her active round-trip economy reservations and change the flights to new dates, ensuring the new flights cover the same route and adjusting for any price difference as required.\n2. Increase the total baggage count on that reservation by one and set all baggages as nonfree, making any required additional payment.\n3. Replace all passengers on that reservation with two new passengers: Olivia Stone (dob: 1992-04-15) and Ethan Stone (dob: 2018-09-22), ensuring passenger limits are not exceeded.\n4. Cancel one of Alice\u2019s active business class reservations, making sure cancellation is allowed according to business rules.\n5. After successful cancellation, issue Alice a new travel certificate for $150, ensuring she holds at most one active certificate by removing or consolidating any existing certificates as necessary.",
+    "generated_at": "2026-05-03T05:06:26.989720"
+  },
+  {
+    "task_id": "envscaler_056",
+    "task": "Gold member Alice Johnson currently holds multiple active travel certificates, which violates policy. First, resolve this violation so that Alice retains only the newest certificate and all others are removed from her account. Next, for one of Alice's active round-trip economy reservations, replace the passenger list with three new passengers: Emily Watson (dob: 1989-04-15), Daniel Watson (dob: 1987-09-21), and Lucy Watson (dob: 2013-08-05). Increase the total baggage count for the reservation to three (with two of them being nonfree), and ensure travel insurance is added if it was not already present. Finally, update the reservation\u2019s flights to a different set of round-trip flights between the same two cities, settling any price difference using only Alice\u2019s valid payment methods after the certificate clean-up.",
+    "generated_at": "2026-05-03T05:06:37.581592"
+  },
+  {
+    "task_id": "envscaler_057",
+    "task": "Gold member Alice Johnson needs to adjust her travel plans and resolve her payment methods. First, cancel one of Alice's active reservations and ensure the associated refund is processed. Next, update a different active reservation for Alice by replacing all current passengers with a new set of up to three individuals, and increase the nonfree baggage count by one, ensuring the total does not exceed the reservation's baggage allowance. Finally, ensure Alice holds at most one active certificate payment method by revoking any extra certificates as needed, and then issue a new $150 travel certificate to her account.",
+    "generated_at": "2026-05-03T05:06:46.478553"
+  },
+  {
+    "task_id": "envscaler_058",
+    "task": "Henry Brown has had a change of plans and needs your assistance with his reservations. First, cancel one of Henry\u2019s active one-way reservations, ensuring that none of its flights are currently flying or have landed. Next, for a different one of Henry\u2019s active round-trip reservations, update the flights to later dates on the same routes, increase the total baggage count by one (making sure to adjust nonfree baggage accordingly), and replace all current passengers with a new list of up to two passengers of your choosing. Once the cancellation is successfully processed, issue Henry a travel certificate for $75, provided he does not already have an active certificate on his account after the cancellation.",
+    "generated_at": "2026-05-03T05:06:53.944527"
+  },
+  {
+    "task_id": "envscaler_059",
+    "task": "Gold member Alice Johnson wants to update her round-trip reservation (reservation ID not provided; you must identify it) to new flights on the same routes with different travel dates, add one extra baggage (total and nonfree), and replace all passengers with herself and another gold member. After making these changes, she decides to cancel the reservation and requests a new travel certificate for the total refunded amount. Ensure that all business rules are followed, including baggage and passenger limits, and that Alice does not already have an active certificate before issuing the new one.",
+    "generated_at": "2026-05-03T05:07:02.633200"
+  },
+  {
+    "task_id": "envscaler_060",
+    "task": "Alice Johnson (user_id: gold_alice_1) wants to update her round-trip reservation (reservation_id: DF3303) as follows: First, replace the current passenger list with three new passengers of your choice, ensuring the total number of passengers does not exceed the cabin class limit. Next, increase the total baggage allowance to 3 bags and ensure that 2 of them are nonfree baggages. Then, change the reservation flights to the same origin and destination, but select new travel dates at least one week after the original dates. If the new flights result in a price difference, handle the payment adjustment using Alice's existing payment methods. Finally, add travel insurance to this reservation if it is not already present.",
+    "generated_at": "2026-05-03T05:07:10.223375"
+  },
+  {
+    "task_id": "envscaler_061",
+    "task": "For user Bob Martinez (gold membership), perform the following set of actions:\n\n1. Identify and cancel one of Bob's active reservations that is eligible for cancellation under system rules. Ensure all cancellation constraints are satisfied before proceeding.\n2. Book a new round-trip reservation for Bob between two different airports not used in the cancelled reservation, selecting flights with available seats in economy cabin. Pay for the reservation by combining Bob's available payment methods, ensuring no violation of payment rules.\n3. After the reservation is booked, update it to include two additional checked baggages and add travel insurance coverage.\n4. Finally, send a travel certificate worth $75 to Henry Brown (regular membership). If Henry already holds an active certificate, resolve the conflict according to system constraints before issuing the new certificate.",
+    "generated_at": "2026-05-03T05:07:18.165282"
+  },
+  {
+    "task_id": "envscaler_062",
+    "task": "For every user who currently holds more than one active certificate, reduce their certificates to only one by removing all but the certificate with the highest remaining amount. Once all users have at most one certificate, perform the following for user \"silver_david_4\":  \n1. Update the passenger list on their active one-way reservation in economy cabin (reservation_id \"ZFA004\") so that it includes two new adult passengers with unique names and dates of birth, replacing the existing passenger(s) entirely.  \n2. Increase the total_baggages on that reservation to 3, with 2 of them being nonfree baggages.  \n3. After these modifications, issue a new $75 certificate to \"silver_david_4\" (only if he does not already hold a certificate following the cleanup), ensuring you comply with the single-certificate-per-user rule.",
+    "generated_at": "2026-05-03T05:07:24.764627"
+  },
+  {
+    "task_id": "envscaler_063",
+    "task": "Alice Johnson (gold member) needs to update her travel plans due to a change in family arrangements. First, upgrade her active round-trip economy reservation (reservation ID unknown) to business class and increase total baggage count by 1. Next, remove one passenger from this upgraded reservation and book them on a new one-way basic economy flight on the same outbound segment, using Alice\u2019s available payment methods and ensuring all business rules (including certificate limits and baggage rules) are followed. Lastly, cancel one of Alice\u2019s active one-way business class reservations that is eligible for cancellation, making sure all refunds are processed back to the original payment method.",
+    "generated_at": "2026-05-03T05:07:31.091254"
+  },
+  {
+    "task_id": "envscaler_064",
+    "task": "David Wilson (silver member) needs to update his round-trip reservation (A97F5E) as follows: first, resolve any violation regarding certificate payment methods by ensuring he holds at most one active certificate in his account. Then, on reservation A97F5E, change the flights on both legs to different available flights on the same routes and dates, increase the total baggage allowance by one, and replace the passenger list so the reservation is only for David and a new passenger, Olivia Wilson (DOB not yet saved). Add travel insurance to the updated reservation. After these updates, cancel David's separate active reservation ZFA004 and ensure the refund is issued to his original payment methods.",
+    "generated_at": "2026-05-03T05:07:38.391087"
+  },
+  {
+    "task_id": "envscaler_065",
+    "task": "Multiple users currently hold more than one active travel certificate, which is not allowed by business rules. For each user with more than one certificate, remove all but one certificate from their payment methods. Then, for each of these users, select one of their active (non-cancelled) reservations and update it as follows: increase the total baggages and nonfree baggages by 1 (ensuring nonfree_baggages does not exceed total_baggages), and replace the passenger list so that it includes at least one new passenger not previously on the reservation, ensuring passenger count limits for the cabin are observed. If the reservation does not already include travel insurance, add insurance to it. Ensure all payment changes and refunds are handled according to system policies. If no eligible reservation exists for a user, book a new one-way reservation for them on any available direct flight, including at least one baggage, travel insurance, and a new passenger, using their valid payment methods.",
+    "generated_at": "2026-05-03T05:07:46.570745"
+  },
+  {
+    "task_id": "envscaler_066",
+    "task": "A gold member, Alice Johnson, needs to update her active round-trip reservation to change both outbound and return flights to different dates, increase her total and nonfree baggages by 1 each, and replace the current passenger list with two new passengers\u2014making sure the new passenger count does not exceed the allowed limit for her cabin. After these changes, cancel one of her active one-way business reservations. Then, using the refund certificate received from the cancellation, book a new one-way economy reservation for Alice and one companion on any available flight from JFK to SFO, ensuring that the certificate is used as a payment method and no more than one certificate remains active for her account.",
+    "generated_at": "2026-05-03T05:07:54.798782"
+  },
+  {
+    "task_id": "envscaler_067",
+    "task": "For user \"Henry Brown\" (reg_henry_8), perform the following sequence of actions:\n\n1. Cancel his active \"business\" cabin reservation that includes \"Henry Brownn\" as a passenger. Ensure that the cancellation is processed according to business rules, including any necessary refund to the original payment method.\n2. Immediately book a new one-way \"business\" cabin reservation for Henry Brown, this time including both \"Henry Brown\" and \"Susan Brown\" as passengers, with 2 total baggages, 1 nonfree baggage, and with travel insurance applied. Use any available travel certificate on his account as part of the payment for this booking.\n3. After the new booking, update his active round-trip \"economy\" reservation to change the passenger list to include only \"Henry Brown\" and \"Oliver Brown,\" ensuring the reservation meets cabin passenger limit rules.\n4. If Henry Brown does not have an active travel certificate after these steps, send him a new certificate worth $75.",
+    "generated_at": "2026-05-03T05:08:03.985506"
+  },
+  {
+    "task_id": "envscaler_068",
+    "task": "Alice Johnson, a gold member, is preparing for a family trip and needs several changes to one of her existing active round-trip reservations. First, update the reservation by replacing its passenger list to include herself and one additional family member, making sure not to exceed the maximum allowed passengers for the cabin. Next, increase the total number of baggages for the reservation to two, ensuring that the number of nonfree baggages does not surpass the total. Then, review Alice\u2019s account for any active travel certificates and resolve any violations of the one-certificate rule by ensuring she holds only a single active certificate; remove any extras if necessary. Afterward, apply travel insurance to the reservation if it is not already included. Finally, ensure that the appropriate payment method is used for any additional charges on the reservation, prioritizing the use of a certificate if available.",
+    "generated_at": "2026-05-03T05:08:13.124176"
+  },
+  {
+    "task_id": "envscaler_069",
+    "task": "Alice Johnson (user_id: gold_alice_1) needs to adjust her travel plans and resolve an account issue. Complete the following steps:\n\n1. For Alice's round-trip reservation, update the flights to a different pair of dates on the same routes.\n2. Replace the passenger list on this updated reservation with a new list of two adult passengers: Emily Johnson and Mark Johnson.\n3. Increase the total checked baggage on the reservation by one, ensuring that the number of nonfree baggages does not exceed the new total.\n4. Cancel Alice's basic economy reservation, processing the refund to her original payment method.\n5. Alice's account currently holds multiple active travel certificates, which violates policy. Remove all but one certificate from her payment methods so that she complies with the rule of holding at most one active certificate.",
+    "generated_at": "2026-05-03T05:08:21.876041"
+  },
+  {
+    "task_id": "envscaler_070",
+    "task": "Cancel Alice Johnson\u2019s active reservation \"DF3303\" and ensure all refunds are processed to her original payment methods. If Alice currently holds more than one certificate, remove all but the largest certificate from her account so she meets the single-certificate rule. Then, book a new round-trip economy reservation for Alice from JFK to LAX for herself and two additional passengers, including two total baggages (one nonfree), and apply travel insurance. Use Alice\u2019s largest available certificate and her gift card as payment sources. After booking, update the reservation to add a third nonfree baggage, ensuring all baggage rules and payment adjustments are handled.",
+    "generated_at": "2026-05-03T05:08:27.271419"
+  },
+  {
+    "task_id": "envscaler_071",
+    "task": "Gold member Alice Johnson needs to update her active round-trip reservation (reservation ID not provided; you must determine which one it is). First, change the passenger list on the reservation to include Alice Johnson, Tommy Johnson, and Sophie Johnson. Next, update the total number of baggages on the reservation to 3, with 2 being nonfree baggages. Then, change the reservation\u2019s flights to different available flights on new dates while keeping the same route. After updating, ensure all payment differences are settled using Alice\u2019s gift card and original payment method, with any refunds processed as required. Finally, issue a new $150 travel certificate to Alice\u2019s account, making sure she holds only one active certificate by removing any existing certificate if necessary.",
+    "generated_at": "2026-05-03T05:08:35.448924"
+  },
+  {
+    "task_id": "envscaler_072",
+    "task": "For the user \"gold_alice_1\", bring her account into compliance with the rule that a user may hold at most one active certificate by retaining only her highest-value certificate and removing all others. Next, for her active reservation \"DF3303\" (a round-trip economy booking), update the passenger list to include three new passengers of your choice (ensuring the total passenger count does not exceed the cabin limit), and then increase the total baggage count for this reservation to 3, setting the number of nonfree baggages to 2. Afterward, for her active reservation \"5EDAF2\" (also round-trip, economy), add travel insurance and update the total baggage count to 2. Make sure that all related payment histories and payment methods are updated as necessary to reflect these changes and comply with all environment business rules.",
+    "generated_at": "2026-05-03T05:08:44.388558"
+  },
+  {
+    "task_id": "envscaler_073",
+    "task": "For user Alice Johnson (user_id: gold_alice_1), perform the following actions:  \n1. Review her current payment methods and ensure she holds only one active certificate; remove any excess certificate payment methods from her account so that only one remains.  \n2. For her active round-trip reservation in the economy cabin, update the passenger list to include Alice herself and one additional passenger of your choice, ensuring the passenger count fits the cabin rules.  \n3. For any one of her active business class reservations, increase the total_baggages by 2 and ensure nonfree_baggages is set to 1 less than the new total.  \n4. Attempt to cancel one of her other active reservations; if cancellation is not allowed due to flight status, choose a different active reservation and attempt cancellation again.",
+    "generated_at": "2026-05-03T05:08:52.834443"
+  },
+  {
+    "task_id": "envscaler_074",
+    "task": "A gold member, Alice Johnson, needs to adjust her upcoming travel plans. First, cancel her active one-way business class reservation and ensure any refunds are processed. Next, update her active round-trip reservation by upgrading the cabin from economy to business, increasing the total number of baggages by one, and adding Sophie Johnson as an additional passenger. Finally, bring her account into compliance by ensuring she holds only her most recently issued certificate, removing all others from her payment methods.",
+    "generated_at": "2026-05-03T05:09:04.065200"
+  },
+  {
+    "task_id": "envscaler_075",
+    "task": "Alice Johnson wishes to update her family\u2019s existing round-trip reservation as follows:  \n1. Change the flights on her round-trip reservation to new dates of your choice, keeping the same origin and destination routes.  \n2. Add a new family member as a passenger, ensuring the cabin\u2019s passenger limit is not exceeded.  \n3. Increase the total baggage count by at least one and ensure at least one bag is marked as nonfree.  \n4. If her reservation does not already include travel insurance, add it.  \n5. Ensure any fare difference and baggage fees are paid using Alice\u2019s available payment methods, applying her gift card balance first and then her credit card if needed.  \n6. Alice currently holds multiple active travel certificates, which is not allowed. Consolidate all of her certificates into a single certificate with the total value, ensuring she only has one active certificate at the end.",
+    "generated_at": "2026-05-03T05:09:13.366106"
+  },
+  {
+    "task_id": "envscaler_076",
+    "task": "Gold member Alice Johnson needs to update her active round-trip reservation to new flights on her preferred dates. She wants to bring her two family members as additional passengers (making a total of three), increase her total baggage count to three (with two as nonfree), and use her gift card as the primary payment method for any fare changes. Since Alice currently holds multiple travel certificates, ensure that after all changes, she only has one active certificate on her account, resolving any excess certificates in accordance with business rules. Complete all necessary reservation, passenger, baggage, payment, and certificate updates to fulfill her request.",
+    "generated_at": "2026-05-03T05:09:23.272997"
+  },
+  {
+    "task_id": "envscaler_077",
+    "task": "A compliance review has identified that several users currently hold more than one active travel certificate, which is not permitted. For each user with multiple certificates, remove all but one certificate from their account and refund the value of each removed certificate to the original payment method. After resolving certificate violations, gold member Alice Johnson wishes to update her active round-trip economy reservation by increasing her total baggage allowance by one piece, adding travel insurance, and updating the passenger list to include a new family member (ensuring the new total does not exceed allowed limits). Any additional fees resulting from these changes must be paid using her available gift card balance. Ensure all business rules are followed throughout these modifications.",
+    "generated_at": "2026-05-03T05:09:31.665834"
+  },
+  {
+    "task_id": "envscaler_078",
+    "task": "Alice Johnson (user_id: gold_alice_1) wants to book a new one-way economy class flight from JFK to ORD for herself and one additional passenger, using a certificate as full or partial payment. However, she currently holds multiple certificates, which violates business rules. First, resolve the certificate violation by ensuring Alice has only one active certificate, refunding or canceling the others as appropriate. Then, book the new reservation as requested, allocating any required payment across Alice\u2019s remaining eligible payment methods. Afterward, update her active round-trip reservation (reservation_id: DF3303) to add one additional passenger and one extra nonfree baggage, making sure passenger and baggage limits are not exceeded and that any payment differences are correctly processed through her available payment methods.",
+    "generated_at": "2026-05-03T05:09:39.490163"
+  },
+  {
+    "task_id": "envscaler_079",
+    "task": "Bob Martinez (gold member) wants to change his travel plans and requests the following:  \nFirst, cancel one of his active reservations and ensure he receives any eligible refund. Then, using any refunded certificate and his available payment methods, book a new round-trip reservation for himself and two other passengers to any destination, including insurance and at least two total baggages, splitting payment as needed. After the new reservation is confirmed, replace one of the passengers with a different person. Finally, if Bob does not already have an active travel certificate, issue a new $150 certificate to his account.",
+    "generated_at": "2026-05-03T05:09:47.960035"
+  },
+  {
+    "task_id": "envscaler_080",
+    "task": "For gold member Alice Johnson, cancel her active round-trip economy reservation (reservation ID starts with DF3303) and ensure any refund is issued as a travel certificate, respecting the rule that a user may only hold one certificate at a time (adjust her certificates as needed). Then, book a new round-trip business class reservation for Alice on the same route and dates as the cancelled reservation, this time adding three passengers (including Alice), a total of two baggages (both nonfree), and travel insurance. Apply any available travel certificate to partially pay for the booking, and use her credit card for the remaining balance.",
+    "generated_at": "2026-05-03T05:09:56.964509"
+  },
+  {
+    "task_id": "envscaler_081",
+    "task": "For user \"gold_alice_1\", complete the following sequence of actions:\n\n1. Ensure that Alice holds only one active certificate payment method on her account. If there are multiple certificate payment methods, remove all but the most recently added one from her payment methods.\n2. For Alice\u2019s active reservation with ID \"DF3303\", update the flights to the latest available round-trip flights on the same route, change the passenger list to include Alice herself and one additional passenger of your choice, and adjust the total baggage count to 2. If any payment adjustment is required, process it using her available payment methods.\n3. Book a new one-way business class reservation for Alice from \"JFK\" to \"LAX\" for the earliest available date, with 1 baggage and travel insurance. Use a combination of her available payment methods to pay for the booking.\n4. Cancel Alice\u2019s active reservation with ID \"ZFA001\" and ensure any eligible refunds are processed to her original payment methods.",
+    "generated_at": "2026-05-03T05:10:06.200634"
+  },
+  {
+    "task_id": "envscaler_082",
+    "task": "Alice Johnson (gold member) wishes to manage her upcoming travel. First, cancel one of her active reservations, but only if all flights in that reservation are neither currently flying nor landed. Then, update the number of total baggages on a different active reservation of hers to 2 (ensuring nonfree baggages do not exceed this new total). Next, book a new round-trip reservation for Alice and one additional passenger, using a mix of her available certificate(s) and gift card(s) to cover payment. After the cancellation, if Alice does not have any active travel certificate, issue her a new certificate for $150.",
+    "generated_at": "2026-05-03T05:10:14.726873"
+  },
+  {
+    "task_id": "envscaler_083",
+    "task": "For gold status user Alice Johnson, resolve any business rule violations related to her having multiple travel certificates by ensuring she holds only one active certificate. Then, cancel one of her active reservations that is eligible for cancellation. After the cancellation is completed and the refund is processed, book a new round-trip economy class reservation for Alice and two family members of your choice, including travel insurance and two total checked baggages. Finally, update the passenger list and baggage count on the newly booked reservation to add a fourth family member and increase the total checked baggages to three, ensuring all changes comply with cabin and baggage rules.",
+    "generated_at": "2026-05-03T05:10:22.042517"
+  },
+  {
+    "task_id": "envscaler_084",
+    "task": "Gold member Alice Johnson (\"gold_alice_1\") needs to book a new round-trip reservation for herself and one saved passenger, using a mix of her available payment methods: gift card, credit card, and certificate. First, ensure Alice only holds one active certificate by removing any extra certificates from her payment methods. Next, create the reservation in the business cabin with travel insurance included and a total of two baggages, distributing the payment across all three payment methods. After booking, update the reservation to increase the total baggage count by one and mark one as nonfree. Then, replace both passengers on the reservation with two new passenger names. Finally, attempt to cancel the reservation, ensuring all business rules are followed.",
+    "generated_at": "2026-05-03T05:10:28.757682"
+  },
+  {
+    "task_id": "envscaler_085",
+    "task": "Gold member Alice Johnson has requested an update to one of her active reservations as follows: For her round-trip economy reservation, replace the existing passenger list with three new passengers (Tommy Johnson, Sophie Johnson, and Emma Johnson, all with appropriate dates of birth for children). Next, adjust the baggage count so there are now three total baggages, of which two are nonfree baggages. After this, ensure all payment records and payment methods are correctly updated to reflect any fare or baggage fee changes, using Alice\u2019s available payment methods. Finally, resolve Alice\u2019s payment methods so that, in compliance with airline policy, she holds only one active certificate by consolidating the value of her existing certificates into a single certificate and removing the extras.",
+    "generated_at": "2026-05-03T05:10:36.735090"
+  },
+  {
+    "task_id": "envscaler_086",
+    "task": "Gold member Alice Johnson wants to update her round-trip reservation to reflect the following changes: change both outbound and return flights to different dates on the same routes; replace the current passenger list with herself and a new passenger; increase total baggage count to 2 with 1 nonfree baggage; and add travel insurance. She wants any resulting payment difference to be charged first to her gift card, then to her credit card if needed. If the change results in a refund, she prefers it to be credited back to her credit card, and also requests that any new travel certificate be sent to Carol Thompson. Ensure that both Alice and Carol are left with at most one active certificate each after all changes are completed.",
+    "generated_at": "2026-05-03T05:10:44.759793"
+  },
+  {
+    "task_id": "envscaler_087",
+    "task": "For user Bob Martinez (gold membership), modify his existing round-trip economy reservation as follows: add a third passenger to the reservation, increase the total baggage count to four (with three nonfree baggages), and update the flights to different dates on the same route. After these changes are made, cancel the reservation and ensure that all payments are properly refunded to the original payment methods.",
+    "generated_at": "2026-05-03T05:10:55.961438"
+  },
+  {
+    "task_id": "envscaler_088",
+    "task": "For all users who currently possess more than one active certificate payment method, remove all but one certificate from their account, ensuring that at least one certificate remains if any exist. For each certificate removed, refund its remaining balance to the user\u2019s primary credit card on file. Next, for the user \"gold_alice_1\", select their active reservation with the highest number of total baggages, and increase its total and nonfree baggage count by one. Finally, update the passenger list for that same reservation by swapping out one existing passenger for a new passenger named \"Emily Johnson\" (date of birth not yet saved), ensuring that the reservation remains compliant with the cabin and passenger count rules.",
+    "generated_at": "2026-05-03T05:11:03.535789"
+  },
+  {
+    "task_id": "envscaler_089",
+    "task": "For a silver-tier user, select one of their active round-trip reservations in economy class. Replace all the passengers on that reservation with two new travelers of your choice, ensuring passenger limits are respected. Next, increase both the total and nonfree baggage counts on the same reservation by one each. Separately, for a gold-tier user who currently holds a business-class one-way reservation, cancel that reservation. After the cancellation is successful, issue a new travel certificate worth $150 to that user, but only if they have no other certificate payment methods associated with their account. If they do, ensure all existing certificates for that user are removed before issuing the new one.",
+    "generated_at": "2026-05-03T05:11:11.946820"
+  },
+  {
+    "task_id": "envscaler_090",
+    "task": "For gold member Alice Johnson, perform the following sequence of actions:\n\n1. Select her active round-trip reservation in economy cabin and increase the total number of baggages by one. At the same time, add travel insurance to this reservation if it is not already present. Ensure any additional fees or refunds are processed using her available payment methods.\n2. Replace the entire passenger list for this reservation with two new passengers: \"Emily Johnson\" (dob: 2010-05-14) and \"George Johnson\" (dob: 1975-09-22). Ensure the reservation remains compliant with the maximum passenger limit for its cabin.\n3. Attempt to send a travel certificate worth $150 to Alice\u2019s account. If she already holds a certificate, remove all her existing certificates before issuing the new one.",
+    "generated_at": "2026-05-03T05:11:21.677011"
+  },
+  {
+    "task_id": "envscaler_091",
+    "task": "For user Alice Johnson (gold membership), perform the following:\n\n1. Resolve the issue of Alice holding multiple certificate payment methods by retaining only one active certificate and removing all others from her account, ensuring compliance with the environment rule that a user can hold at most one certificate at a time.\n2. On one of Alice\u2019s active round-trip economy reservations, update the passenger list to include three new passengers of your choice, ensuring the total passenger count does not exceed the cabin limit. Ensure all previous passengers are replaced.\n3. On a different active reservation booked by Alice in business class, increase the total baggage count to three and update the number of nonfree baggages to two.\n4. After resolving Alice\u2019s excess certificates, send her a new travel certificate worth $75 to her account, ensuring she has at most one certificate after completion. \n\nAll sub-tasks must comply with business rules and require careful coordination of certificate, reservation, passenger, and baggage management.",
+    "generated_at": "2026-05-03T05:11:31.222436"
+  },
+  {
+    "task_id": "envscaler_092",
+    "task": "For user Henry Brown (membership: regular), perform the following:\n\n1. Select one active round-trip reservation for Henry Brown and update the passenger list so it includes himself and one additional passenger, ensuring compliance with cabin constraints. Then, increase the total baggage count on that reservation to 2, and ensure at least one baggage is nonfree.\n2. Cancel any one-way business cabin reservation currently active for Henry Brown, ensuring cancellation is permitted by business rules. After cancellation, issue a new travel certificate worth $75 to Henry\u2019s account, making sure he does not already hold an active certificate.",
+    "generated_at": "2026-05-03T05:11:36.307190"
+  },
+  {
+    "task_id": "envscaler_093",
+    "task": "Alice Johnson (user_id: gold_alice_1) wants to adjust her travel arrangements and share a travel benefit with her family. \n\n1. Cancel Alice's active business-class one-way reservation (reservation_id: ZFA001), ensuring the refund is processed to her original payment methods and all business rules for cancellation are obeyed.\n2. On Alice\u2019s active round-trip economy reservation (reservation_id: DF3303), increase the total baggages by 1 and ensure any changes in payment (additional fees or refunds) are correctly handled.\n3. Transfer one of Alice's travel certificates (choose any with a positive balance) to her family member Bob Martinez (user_id: gold_bob_2). Make sure Alice does not retain more than one active certificate after the transfer and Bob does not already have an active certificate (resolve any conflicts if they exist by revoking excess certificates).\n4. Using the certificate transferred in step 3, book a new one-way economy reservation for Bob Martinez from JFK to LAX for the soonest available date, for one passenger (Bob), including travel insurance. Use the certificate as payment, supplementing with Bob's credit card if needed.",
+    "generated_at": "2026-05-03T05:11:43.561333"
+  },
+  {
+    "task_id": "envscaler_094",
+    "task": "For gold member Carol Thompson, perform the following sequence of changes to her airline reservations and payment methods:\n\n1. Cancel her active basic economy reservation and ensure all appropriate refunds are issued to her original payment methods.\n2. Modify her active round-trip economy reservation by adding an additional passenger, increasing total baggages by one (ensuring nonfree baggages do not exceed total baggages), and removing travel insurance from the reservation.\n3. Book a new one-way business class reservation for Carol and one guest, using her available travel certificate for payment and covering any remaining balance with her credit card. Ensure that the chosen flight is available, and that all booking constraints and payment method rules are satisfied.",
+    "generated_at": "2026-05-03T05:11:54.780540"
+  },
+  {
+    "task_id": "envscaler_095",
+    "task": "Several users currently hold more than one active travel certificate, which violates company policy. For each user who has multiple certificates, remove all but their highest-value certificate. For every certificate you remove, compensate the user by issuing a new gift card payment method for the same amount as the revoked certificate. If any active reservation for that user was paid with a now-revoked certificate, update the reservation\u2019s payment to use the new gift card or another available active payment method belonging to the user, ensuring payment history remains valid. Make sure all changes comply with the environment\u2019s constraints.",
+    "generated_at": "2026-05-03T05:12:02.800947"
+  },
+  {
+    "task_id": "envscaler_096",
+    "task": "For the user Alice Johnson (user_id unknown), complete the following series of actions:\n\n1. Select one of Alice\u2019s active round-trip reservations and update its passenger list to include exactly three passengers of your choice, ensuring the new passenger list is valid for the cabin type. Simultaneously, increase the total number of baggages on this reservation by 2 and update the reservation to reflect this change, ensuring the total and nonfree baggage rules are followed.\n2. Attempt to cancel a different one-way reservation of Alice\u2019s. If cancellation fails due to business rules, document the reason and proceed.\n3. Attempt to send Alice a new travel certificate valued at $75. If you are unable to send the certificate because Alice already holds at least one active certificate, resolve this by ensuring she has only one active certificate in her account before successfully sending the new certificate.\n4. Book a new one-way reservation for Alice for a business cabin flight from JFK to LAX on a future date for two passengers, using both her gift card and credit card to complete the payment, and include travel insurance in the booking. Ensure all steps follow current environment rules.",
+    "generated_at": "2026-05-03T05:12:12.380356"
+  },
+  {
+    "task_id": "envscaler_097",
+    "task": "Carol Thompson (user_id: gold_carol_3) is planning a business trip and needs to make several changes to her travel plans. First, for her active round-trip reservation, update the passenger list to include only herself and Emma Thompson, removing any other passengers. Next, change the reservation flights to a different available round-trip schedule between the same origin and destination, and increase her total baggage count by one. Ensure any payment difference is handled using her available payment methods. Finally, since she wants to use a travel certificate for her next booking, review her account and remove any existing active certificates so that only one remains, and issue her a new $150 travel certificate.",
+    "generated_at": "2026-05-03T05:12:19.737674"
+  },
+  {
+    "task_id": "envscaler_098",
+    "task": "Gold member Alice Johnson wants to update her upcoming round-trip reservation by replacing the current passenger with herself and adding a new passenger, then changing both the outbound and return flights to different dates on the same route. She also wants to add one nonfree baggage to this reservation and pay any price difference using one of her available certificates. If the price decreases, refund the difference to her certificate. Additionally, she requests to cancel her one-way business class reservation, ensuring it is eligible for cancellation. Complete all required steps to fulfill Alice\u2019s requests according to the system rules.",
+    "generated_at": "2026-05-03T05:12:27.988838"
+  },
+  {
+    "task_id": "envscaler_099",
+    "task": "For user Alice Johnson (user_id not provided), perform the following sequence of actions:\n\n1. Identify one of Alice\u2019s current active reservations and cancel it, ensuring that none of its flights are currently flying or landed. Issue refunds to her original payment methods as required.\n2. Alice currently holds multiple travel certificates, but users may only have one. Retain only one certificate for Alice by removing all her other certificate payment methods, so that only a single active certificate remains in her account.\n3. Book a new round-trip reservation for Alice between two major airports of your choice, in economy cabin, for two passengers (one being Alice and one additional passenger), with one nonfree baggage item and travel insurance applied. Use her available payment methods for payment.\n4. After booking, update the new reservation to increase the total baggage count by one, making sure that the number of nonfree baggages does not exceed the new total. If this results in an additional fee, pay it using Alice\u2019s current payment methods.",
+    "generated_at": "2026-05-03T05:12:36.107259"
+  }
+]

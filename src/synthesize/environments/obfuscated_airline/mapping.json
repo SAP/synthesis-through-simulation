@@ -1,0 +1,264 @@
+{
+  "description": "Reference mapping from original airline-domain names to generic de-identified names used in the generic environment.",
+
+  "column_renames": {
+    "user_id": "property_id",
+    "origin": "object_a_property_1",
+    "destination": "object_a_property_2",
+    "departure_time": "scheduled_property_c",
+    "arrival_time": "scheduled_property_d",
+    "source": "property_i",
+    "brand": "property_j",
+    "last_four": "property_k",
+    "date": "property_l",
+    "dob": "property_m",
+    "first_name": "property_n",
+    "last_name": "property_o",
+    "email": "property_p",
+    "membership": "property_q",
+    "address1": "property_r",
+    "address2": "property_s",
+    "city": "property_t",
+    "state": "property_u",
+    "country": "property_v",
+    "zip": "property_w",
+    "cabin_class": "property_e",
+    "checked_bags": "property_f",
+    "paid_bags": "property_h",
+    "insurance": "property_g",
+    "price": "property_b",
+    "available_seats": "property_a"
+  },
+
+  "column_semantics": {
+    "property_id": "primary key for the object_fs table (user identifier)",
+    "object_a_property_1": "origin location code",
+    "object_a_property_2": "destination location code",
+    "scheduled_property_c": "scheduled departure time (HH:MM:SS)",
+    "scheduled_property_d": "scheduled arrival time (HH:MM:SS, may include +1 for next-day)",
+    "property_i": "payment method type (i_a=credit_card, i_b=gift_card, i_c=certificate)",
+    "property_j": "credit card brand (value_a=visa, value_b=mastercard, value_c=amex)",
+    "property_k": "last four digits of credit card",
+    "property_l": "calendar date (YYYY-MM-DD)",
+    "property_m": "date of birth (YYYY-MM-DD)",
+    "property_n": "first name",
+    "property_o": "last name",
+    "property_p": "email address",
+    "property_q": "membership tier (value_g=gold, value_s=silver, value_r=regular)",
+    "property_r": "street address line 1",
+    "property_s": "street address line 2 (nullable)",
+    "property_t": "city",
+    "property_u": "state",
+    "property_v": "country",
+    "property_w": "zip code",
+    "property_e": "cabin class (type_b=business, type_a=economy, type_c=basic_economy)",
+    "property_f": "total checked bag count",
+    "property_h": "non-free (paid) checked bag count",
+    "property_g": "travel insurance flag (yes/no)",
+    "property_b": "price per passenger",
+    "property_a": "available seat count",
+    "property_a_type_b": "available business class seats",
+    "property_a_type_a": "available economy seats",
+    "property_a_type_c": "available basic economy seats",
+    "property_b_type_b": "business class price",
+    "property_b_type_a": "economy price",
+    "property_b_type_c": "basic economy price",
+    "estimated_property_c": "estimated departure time (when delayed/in-flight)",
+    "estimated_property_d": "estimated arrival time",
+    "actual_property_c": "actual departure time",
+    "actual_property_d": "actual arrival time"
+  },
+
+  "table_renames": {
+    "flights": "object_bs",
+    "flight_dates": "object_b_dates",
+    "object_b_dates": "object_b_property_ls",
+    "reservations": "object_cs",
+    "reservation_flights": "object_c_object_bs",
+    "passengers": "object_c_object_ds",
+    "reservation_payments": "object_c_object_es",
+    "payment_methods": "object_es",
+    "saved_passengers": "saved_object_ds",
+    "users": "object_fs"
+  },
+
+  "entity_names": {
+    "object_a": "location (airport/city)",
+    "object_b": "scheduled route instance (flight)",
+    "object_c": "booking / reservation",
+    "object_d": "traveler / passenger",
+    "object_e": "payment method",
+    "object_f": "user / account holder"
+  },
+
+  "api_file_renames": {
+    "flights.py": "f.py",
+    "reservations.py": "r.py",
+    "users.py": "u.py",
+    "payments.py": "p.py"
+  },
+
+  "function_renames": {
+    "cancel_reservation": "set_object_c_status_a",
+    "_check_any_object_b_generic_cancelled": "_check_any_object_b_status_e"
+  },
+
+  "terminology_renames": {
+    "balance": "amount",
+    "cancel / cancelled (object_c)": "set to status_a / status_a"
+  },
+
+  "enum_value_renames": {
+    "membership_tier": {
+      "gold": "value_g",
+      "silver": "value_s",
+      "regular": "value_r"
+    },
+    "cabin_class": {
+      "business": "type_b",
+      "economy": "type_a",
+      "basic_economy": "type_c"
+    },
+    "trip_type": {
+      "one_way": "option_a",
+      "round_trip": "option_b"
+    },
+    "payment_type": {
+      "credit_card": "i_a",
+      "gift_card": "i_b",
+      "certificate": "i_c"
+    },
+    "credit_card_brand": {
+      "visa": "value_a",
+      "mastercard": "value_b",
+      "amex": "value_c"
+    },
+    "object_b_status": {
+      "available": "status_a",
+      "delayed": "status_b",
+      "in_flight": "status_c",
+      "landed": "status_d",
+      "cancelled_by_airline": "status_e",
+      "status_f": "status_f"
+    },
+    "object_c_status": {
+      "active": null,
+      "cancelled": "status_a"
+    },
+    "cancellation_reason": {
+      "delayed": "reason_a",
+      "missed_connection": "reason_b",
+      "weather": "reason_c",
+      "medical": "reason_d",
+      "other": "reason_e"
+    }
+  },
+
+  "location_codes": {
+    "note": "8 airport/city codes anonymized to NAME_A through NAME_H; original codes not recorded",
+    "values": ["NAME_A", "NAME_B", "NAME_C", "NAME_D", "NAME_E", "NAME_F", "NAME_G", "NAME_H"]
+  },
+
+  "data_value_renames": {
+    "first_names": {
+      "Alice": "XAJI0",
+      "Bob": "Y6DPB",
+      "Carol": "HSAHX",
+      "David": "THV3A",
+      "Eva": "3ZMF8",
+      "Frank": "MDD4V",
+      "Grace": "30T9N",
+      "Henry": "T3W5U",
+      "Iris": "ZBIKC",
+      "Jack": "IDKWN"
+    },
+    "last_names": {
+      "Johnson": "874FR",
+      "Martinez": "HOCN9",
+      "Thompson": "J2QP8",
+      "Wilson": "9UZFK",
+      "Anderson": "8UT0C",
+      "Garcia": "VS4F8",
+      "Lee": "CGVYI",
+      "Brown": "E6IVW",
+      "Davis": "PVS7H",
+      "Miller": "ZIOYK"
+    },
+    "user_ids": {
+      "gold_alice_1": "value_g_XAJI0_1",
+      "gold_bob_2": "value_g_Y6DPB_2",
+      "gold_carol_3": "value_g_HSAHX_3",
+      "silver_david_4": "value_s_THV3A_4",
+      "silver_eva_5": "value_s_3ZMF8_5",
+      "silver_frank_6": "value_s_MDD4V_6",
+      "silver_grace_7": "value_s_30T9N_7",
+      "reg_henry_8": "value_r_T3W5U_8",
+      "reg_iris_9": "value_r_ZBIKC_9",
+      "reg_jack_10": "value_r_IDKWN_10"
+    },
+    "emails": {
+      "alice.johnson@email.com": "P7K2M4N9",
+      "bob.martinez@email.com": "R3N8Q1L5",
+      "carol.thompson@email.com": "W6T4K7M2",
+      "david.wilson@email.com": "H9L3P5N1",
+      "eva.anderson@email.com": "M2K8R4Q6",
+      "frank.garcia@email.com": "B5N1T7L3",
+      "grace.lee@email.com": "F8K4M2R9",
+      "henry.brown@email.com": "K1P6N3T8",
+      "iris.davis@email.com": "T4R9M5K2",
+      "jack.miller@email.com": "Q7L2K8N4"
+    },
+    "address_line1": {
+      "100 Oak St": "X3K7P2M9",
+      "200 Elm Ave": "A6N4Q8L1",
+      "300 Pine Rd": "C9T2K5R3",
+      "401 Maple Blvd": "D4M8N1P6",
+      "502 Cedar Ln": "E7L3T9K4",
+      "603 Birch Way": "G2K6M4N7",
+      "704 Walnut St": "H5P1R8T2",
+      "805 Spruce Ave": "J8N3K6M1",
+      "906 Ash Dr": "L1T7P4N9",
+      "1007 Poplar Ct": "N4M2K9R5"
+    },
+    "address_line2": {
+      "Apt 5B": "B2K7P5",
+      "Unit 3": "M4N8Q2",
+      "Ste 100": "R6T3L9",
+      "Apt 2": "K8M5P1"
+    },
+    "cities": {
+      "New York": "4K9N2PQ",
+      "Los Angeles": "7L3M5QR",
+      "Chicago": "2N8R4TP",
+      "San Francisco": "5K1P9MN",
+      "Atlanta": "8M4L2KQ",
+      "Dallas": "1T7K5NP",
+      "Miami": "4N2M8LR",
+      "Seattle": "7P5K3NM"
+    },
+    "states": {
+      "NY": "K4P2",
+      "CA": "M7N3",
+      "IL": "R5T8",
+      "GA": "N2K9",
+      "TX": "L8M4",
+      "FL": "P3N7",
+      "WA": "T6K1"
+    },
+    "countries": {
+      "USA": "WX3K"
+    },
+    "zip_codes": {
+      "10001": "K9P4M",
+      "90001": "N3T7L",
+      "60601": "R8K2Q",
+      "94102": "M5N9P",
+      "30301": "L4T3K",
+      "75201": "P7M8N",
+      "33101": "Q2K5T",
+      "98101": "N9L4M",
+      "10002": "K7P3R",
+      "90002": "M2N8T"
+    }
+  }
+}

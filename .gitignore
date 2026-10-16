@@ -1,0 +1,37 @@
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# ── Virtual environments ────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Secrets / local config ──────────────────────────────────────────
+.env
+.env.local
+
+# ── Run artifacts & outputs ─────────────────────────────────────────
+# Trajectories, per-run snapshots, exploration manifests, benchmark output.
+.runs/
+outputs/
+summaries/evaluation_reports/*.json
+
+# ── Working databases ───────────────────────────────────────────────
+# `synthesize --env <env> setup` regenerates these from schema + reference
+# data. The tracked baseline snapshots (`*_snapshot.db`) are kept.
+*.db
+*.db-wal
+*.db-shm
+!*_snapshot.db
+
+# ── OS / editor ─────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp

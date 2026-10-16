@@ -1,0 +1,502 @@
+[
+  {
+    "task_id": "envscaler_hr_000",
+    "task": "You have been assigned to onboard the first engineering team in the company. Complete the following steps:\n\n1. Hire a new Engineering Manager in the \"Software Engineering\" department with a valid pay grade. Assign them to any available location and company, ensuring the job code and department code are correct.  \n2. Hire a Software Engineer to report directly to the newly created Engineering Manager. Assign them a valid pay grade, job code, department, and location.  \n3. For the new Software Engineer, submit a paid time-off request for 3 days of vacation, ensuring balance sufficiency and correct time-off type selection.  \n4. Conduct a performance review for the Software Engineer: create a new review, progress it through all required status stages, and assign an overall rating.  \n5. Open a new job requisition for a \"Junior Software Engineer\" in the same department, with the Engineering Manager set as the hiring manager. Ensure all required fields are completed using valid codes.",
+    "generated_at": "2026-05-03T05:01:48.853316"
+  },
+  {
+    "task_id": "envscaler_hr_001",
+    "task": "Hire two new employees in different departments, ensuring each has a valid job code, pay grade, and location. After hiring, promote the first employee to a higher job level and pay grade, recording the change appropriately. Transfer the second employee to another department and assign a new manager. For both employees, submit a vacation time-off request and approve it. Open a new job requisition in one of the departments, create a candidate profile, submit an application to the requisition, advance the application through the pipeline to offer, extend a job offer within the appropriate pay grade, and update the offer status to accepted. Finally, initiate a performance review for the first employee, progress the review to completion, and assign an overall rating.",
+    "generated_at": "2026-05-03T05:01:55.358479"
+  },
+  {
+    "task_id": "envscaler_hr_002",
+    "task": "Hire a new Engineering Manager in the Software Engineering department, assigning them to a valid location and pay grade. Then, hire a Junior Software Engineer who will report directly to this new manager, ensuring all job, department, location, and pay grade assignments are valid. After both hires, initiate an internal transfer for the Junior Software Engineer to the Product Management department, selecting an appropriate event reason and updating their job assignment as needed. Next, submit and approve a 2-day vacation time-off request for the Junior Software Engineer, ensuring their balance is sufficient. Finally, create a performance review for the Junior Software Engineer for the current review period, advancing the review status to Completed with an overall rating of \"Meets Expectations.\"",
+    "generated_at": "2026-05-03T05:02:01.910936"
+  },
+  {
+    "task_id": "envscaler_hr_003",
+    "task": "You are an HR administrator tasked with fully onboarding a new Engineering Manager and subsequently hiring a Software Engineer for their team, following these steps:\n\n1. Create a new employee record for \"Alex Morgan\" as an Engineering Manager in the Software Engineering department. Assign an appropriate pay grade and location, and set Alex\u2019s employment as Active. Make sure to use valid job, department, and pay grade codes.  \n2. Immediately after Alex joins, open a job requisition for a new Software Engineer role in Alex\u2019s department and location, with Alex as the hiring manager. Ensure the requisition is set up correctly for candidate applications.\n3. Next, create a candidate profile for \"Taylor Kim\" and submit their application to the open Software Engineer requisition you just created.\n4. Progress Taylor Kim's application through all recruitment stages: advance their application from New, to Under Review, to Interview, to Offer. Then, create a job offer for Taylor within the valid pay grade salary band for the Software Engineer role, and mark the offer as Accepted. Finally, hire Taylor Kim into the company as a Software Engineer in Alex Morgan\u2019s team.\n5. After Taylor is hired, submit a time-off request for Taylor for 3 days of Vacation, ensuring their time-off balance is sufficient and the request is properly created.\n6. Initiate a performance review for Taylor Kim for the current review period, leaving it in Draft status.\n\nEnsure every step is completed in sequence, using only valid and available codes, and that all relationships (manager, department, requisition, job, pay grade, etc.) are set up correctly according to the environment data.",
+    "generated_at": "2026-05-03T05:02:11.283496"
+  },
+  {
+    "task_id": "envscaler_hr_004",
+    "task": "1. Hire a new Engineering Manager in the Software Engineering department, ensuring the job assignment references the appropriate job code, department code, a valid location, company, and pay grade.  \n2. Hire a new Junior Software Engineer, assigning them to the same department and location, and ensure they report to the newly hired Engineering Manager.  \n3. For the Engineering Manager, submit a vacation time-off request for 3 days, and then approve the request once it is created.  \n4. For the Junior Software Engineer, initiate a new performance review for the current period and advance its status through all stages until it is fully approved.",
+    "generated_at": "2026-05-03T05:02:18.967847"
+  },
+  {
+    "task_id": "envscaler_hr_005",
+    "task": "Create a realistic employee hierarchy by first hiring a Chief Technology Officer (CTO) and assigning them to the Information Technology department at any available location. Next, hire an Engineering Manager who reports to the CTO, followed by two Software Engineers who both report to the Engineering Manager. After the initial setup, promote one of the Software Engineers to Senior Software Engineer, ensuring their pay grade is updated accordingly. Then, terminate the other Software Engineer with a voluntary resignation. Following this, open a new job requisition for a Software Engineer in the same department and location, with the Engineering Manager as the hiring manager. Create a candidate profile for a potential replacement, submit their application to the new requisition, and advance the application to the Interview stage. Finally, submit a time-off request for the newly promoted Senior Software Engineer, ensuring the request does not exceed available balance.",
+    "generated_at": "2026-05-03T05:02:27.252762"
+  },
+  {
+    "task_id": "envscaler_hr_006",
+    "task": "You are tasked with simulating the hiring and onboarding process for a new Software Engineer, followed by their initial HR lifecycle actions. Proceed as follows:\n\n1. Add a new employee, \u201cMaria Lopez\u201d, as an Engineering Manager in the Software Engineering department, assigning her the appropriate job code, department, location, and a valid pay grade for an Engineering Manager. Maria will serve as both the hiring manager and direct manager for future hires.\n2. Create a new job requisition for a \u201cSoftware Engineer\u201d in the Engineering department, with Maria Lopez as the hiring manager, and open the position for applications.\n3. Add a candidate, \u201cJohn Kim\u201d, to the system, and submit his application to the created Software Engineer requisition.\n4. Advance John Kim\u2019s application through the recruitment pipeline\u2014move him through \u201cUnder Review\u201d, \u201cInterview\u201d, and \u201cOffer\u201d stages, then extend a job offer. Ensure the offer\u2019s base salary is within the appropriate pay grade band for a Software Engineer.\n5. Mark John Kim\u2019s offer as accepted and complete the hiring pipeline, advancing his application to \u201cHired\u201d.\n6. Onboard John Kim as a new employee in the Software Engineering department, assigning him the correct job code, location, pay grade, and Maria Lopez as his direct manager.\n7. Submit a time-off request for John Kim for three days of vacation and approve the request.\n8. Create a performance review for John Kim, progress it through all statuses from \u201cDraft\u201d to \u201cApproved\u201d, and assign an overall rating of \u201cMeets Expectations\u201d.",
+    "generated_at": "2026-05-03T05:02:37.302733"
+  },
+  {
+    "task_id": "envscaler_hr_007",
+    "task": "You are the HR administrator for a technology company that is just starting to build its team. Complete the following onboarding and management workflow:\n\n1. Open a job requisition for a Software Engineering Manager in the Information Technology department at a location of your choice, assigning yourself as the hiring manager.\n2. Create a candidate profile for Alex Morgan and submit their application to this requisition.\n3. Progress Alex Morgan\u2019s application through the interview pipeline, extend a job offer within the appropriate pay grade salary range, and process acceptance of the offer.\n4. Hire Alex Morgan as the first employee, assigning them as an active Software Engineering Manager in the Information Technology department.\n5. After hiring, process a job transfer for Alex Morgan to move them from the Information Technology department to the Software Engineering department, ensuring all job attributes are updated appropriately.\n6. Grant Alex Morgan paid time off by submitting and approving a vacation request for 3 days, ensuring they have sufficient balance for this request.",
+    "generated_at": "2026-05-03T05:02:45.170574"
+  },
+  {
+    "task_id": "envscaler_hr_008",
+    "task": "A new Software Engineering team needs to be set up in the HRIS. Complete the following steps:\n\n1. Create an Engineering Manager in the Software Engineering department, choosing an appropriate job code and pay grade for this role. \n2. Add two new employees as Software Engineers in the same department, each reporting to the newly created Engineering Manager. Assign them valid job codes and pay grades for their roles.\n3. Promote one of the Software Engineers to Senior Software Engineer, assigning an appropriate job code and updating their pay grade. Record the job change as a promotion.\n4. For the other Software Engineer, submit a vacation time-off request for 5 days and approve it, ensuring all balance and type requirements are met.\n5. Initiate a performance review for the Engineering Manager, progress the review through all status stages to \"Approved,\" and assign an overall rating of \"Exceeds Expectations.\"\n\nAll assignments must adhere to valid job codes, pay grades, reporting relationships, and process constraints within the system.",
+    "generated_at": "2026-05-03T05:02:53.132491"
+  },
+  {
+    "task_id": "envscaler_hr_009",
+    "task": "Simulate the full hiring and onboarding process for the company\u2019s first Chief Executive Officer (CEO), followed by initial HR management actions. \n\n1. Create an open job requisition for the Chief Executive Officer (CEO) position in the department most appropriate for executive leadership. \n2. Create a candidate profile for an external applicant (choose realistic details). Submit their application to the CEO requisition. \n3. Progress the application through the full recruitment pipeline: move the application from New to Under Review, then to Interview, then to Offer.\n4. Extend a job offer for the CEO role with a realistic salary within the valid pay grade for the position. Update the offer status to Accepted.\n5. Onboard the candidate as an employee: create their employee record with appropriate department, job code, location, company, and pay grade details.\n6. Submit a time-off request for the newly hired CEO (e.g., for vacation) of a realistic duration. Approve this time-off request.\n7. Initiate a performance review for the CEO for the first review period, progress it through all required statuses, and set an appropriate overall rating.",
+    "generated_at": "2026-05-03T05:03:00.606679"
+  },
+  {
+    "task_id": "envscaler_hr_010",
+    "task": "Create two new employees: one as an Engineering Manager in the Software Engineering department and another as a Software Engineer reporting directly to this manager. After both are created, promote the Software Engineer to Senior Software Engineer with a corresponding increase in pay grade, ensuring the manager relationship remains unchanged. Next, initiate a performance review for the promoted employee and progress it through all review stages until approved. Finally, have the promoted employee submit a vacation time-off request for five days and approve this request as their manager.",
+    "generated_at": "2026-05-03T05:03:07.650821"
+  },
+  {
+    "task_id": "envscaler_hr_011",
+    "task": "Onboard two new employees: an Engineering Manager in the Software Engineering department and a Software Engineer reporting to this manager in the same department. After onboarding, promote the Software Engineer to Senior Software Engineer, ensuring the job, pay grade, and reporting lines are updated accordingly. Then, have the promoted engineer submit a vacation time-off request for five days and approve this request. Finally, initiate and complete a performance review for the engineer covering the current review period, assigning an overall rating of \"Meets Expectations.\"",
+    "generated_at": "2026-05-03T05:03:13.650145"
+  },
+  {
+    "task_id": "envscaler_hr_012",
+    "task": "Hire a new Director of Engineering for the Software Engineering department and assign them to the appropriate location and pay grade. Once hired, submit a vacation time-off request for this Director and approve it. Next, open a job requisition for a Software Engineer reporting to the new Director, then add a new candidate for this role, submit their application, advance the application through review, interview, and offer stages, extend an appropriate offer within the pay grade, and have the offer accepted. After hiring this Software Engineer, initiate a performance review for them, progress the review to completion, and assign an overall rating.",
+    "generated_at": "2026-05-03T05:03:20.468553"
+  },
+  {
+    "task_id": "envscaler_hr_013",
+    "task": "Onboard two new employees: first, hire a Software Engineer Manager in the Software Engineering department at any valid location; then, hire a Software Engineer in the same department, assigning the previously hired manager as their manager. After both are active, submit a vacation time-off request for the Software Engineer, ensuring the request does not exceed their available balance, and approve this request. Finally, initiate a performance review for the Software Engineer for the current review period, advance it to 'Completed' status, and assign an overall rating.",
+    "generated_at": "2026-05-03T05:03:25.114058"
+  },
+  {
+    "task_id": "envscaler_hr_014",
+    "task": "Hire two new employees in different departments and assign one as the manager of the other. After both are created, submit a time-off request (such as vacation) for the subordinate employee, ensuring their balance is sufficient, and then approve this request. Then, initiate a performance review for the subordinate, progressing it through all status stages up to \"Approved\" with an overall rating. Finally, promote the subordinate to a new job code and pay grade within their department, using an appropriate event reason for the promotion.",
+    "generated_at": "2026-05-03T05:03:31.776645"
+  },
+  {
+    "task_id": "envscaler_hr_015",
+    "task": "You are an HR administrator tasked with building out the initial Software Engineering team. Complete the following steps:\n\n1. Open a new requisition for the \"Engineering Manager\" role in the Software Engineering department at any available location, and process the hiring of a new manager named \"Jordan Rivera\" (choose any valid pay grade, and ensure the offer salary is within the allowed band). Proceed through the full recruitment pipeline: create a candidate, submit an application, advance the application to offer, extend an offer, and mark it as accepted to complete the hire.\n\n2. With \"Jordan Rivera\" now as an active employee, hire a new \"Software Engineer\" named \"Morgan Chen,\" assigning Jordan as their manager. Use any available location and valid pay grade.\n\n3. For \"Morgan Chen,\" submit a time-off request for 3 days of any available time-off type. Ensure the request does not exceed available balance, and then approve the request.\n\n4. Initiate a performance review for \"Morgan Chen\" for any chosen period. Progress the review through all status stages up to \"Approved,\" and assign an overall rating of your choice. \n\nAll steps must be completed, and all state changes must be reflected accurately in the system.",
+    "generated_at": "2026-05-03T05:03:39.878702"
+  },
+  {
+    "task_id": "envscaler_hr_016",
+    "task": "A new Software Engineer is needed for the Software Engineering department. First, create a job requisition for this position and then add a candidate for the requisition. Move the candidate through the recruitment pipeline until an offer is extended and accepted. After the offer is accepted, hire the candidate as a new employee. Next, hire a second employee to serve as an Engineering Manager and assign them as the manager of the new Software Engineer. Then, transfer the Software Engineer to the Product Management department and update their manager accordingly. Finally, submit a vacation time-off request for the Software Engineer and approve it, ensuring that the employee\u2019s time-off balance is sufficient for the requested days.",
+    "generated_at": "2026-05-03T05:03:47.633504"
+  },
+  {
+    "task_id": "envscaler_hr_017",
+    "task": "Create two new employees in different departments, assigning one as an Engineering Manager in Software Engineering and the other as a Senior Product Manager in Product Management. Designate the Engineering Manager as the manager for the Senior Product Manager. Next, initiate a new job requisition for a Software Engineer position in the Software Engineering department, assigning the Engineering Manager as the hiring manager. Create a new candidate and submit an application to this requisition. Progress the application through each stage of the pipeline until an offer is extended, ensuring the base salary is within the appropriate pay grade range. After the candidate accepts the offer, perform an internal transfer for the Senior Product Manager by moving them to the Information Technology department and promoting them to Director of Engineering with a higher pay grade. Finally, terminate the employment of the Engineering Manager, using an appropriate termination reason.",
+    "generated_at": "2026-05-03T05:03:54.362321"
+  },
+  {
+    "task_id": "envscaler_hr_018",
+    "task": "You are tasked with setting up the foundation of the Software Engineering department and running a complete hiring and onboarding process for a new junior engineer. \n\n1. First, create a Director of Engineering as the department\u2019s initial employee, ensuring their job assignment and pay grade are appropriate for the role.\n2. Next, add a Software Engineer who reports to the Director of Engineering you just created.\n3. Submit a vacation time-off request for the Software Engineer for 5 days, ensuring the request does not exceed their available balance.\n4. Promote the Software Engineer to Senior Software Engineer and assign them to the correct pay grade for the new role.\n5. Have the Director of Engineering open a new requisition for a Junior Software Engineer position within the same department.\n6. Create a new candidate and submit their application to this requisition.\n7. Progress the candidate\u2019s application through all recruitment stages, extend a job offer with a salary within the appropriate pay grade, and update the offer status to accepted. \n\nEach step must be completed in sequence, ensuring all dependencies (such as valid manager assignments, pay grade ranges, and job codes) are correctly handled.",
+    "generated_at": "2026-05-03T05:04:02.931324"
+  },
+  {
+    "task_id": "envscaler_hr_019",
+    "task": "Hire two new employees into the company: one as an Engineering Manager in Software Engineering, and one as a Software Engineer who will report to the new Engineering Manager. After both are hired, initiate a job requisition for a Senior Software Engineer position in Software Engineering, with the new Engineering Manager set as the hiring manager. Then, create a candidate profile and submit their application to the new requisition, advance the application through all interview stages to the offer stage, and extend a job offer with a salary that falls within the appropriate pay grade. Finally, submit a vacation time-off request for the Software Engineer, ensuring that the request does not exceed their available balance, and approve the request.",
+    "generated_at": "2026-05-03T05:04:10.093758"
+  },
+  {
+    "task_id": "envscaler_hr_020",
+    "task": "Onboard a new Engineering team in the Software Engineering department by creating three employees: one Engineering Manager and two Software Engineers, with the manager assigned as the direct manager for both engineers. After onboarding, promote one of the Software Engineers to Senior Software Engineer, ensuring their job and pay grade are updated accordingly. Next, have the promoted engineer request five days of vacation, and approve this time-off request. Finally, initiate a performance review for the promoted engineer, setting the review status to \"In Progress\".",
+    "generated_at": "2026-05-03T05:04:16.067041"
+  },
+  {
+    "task_id": "envscaler_hr_021",
+    "task": "A new role of \"Software Engineer\" needs to be filled in the Software Engineering department at your company's primary location. First, open a new job requisition for this position, assigning an appropriate pay grade and department. Next, create a candidate named Jamie Chen and submit an application for this open requisition. Progress Jamie's application through the recruitment process by advancing it to the interview stage, then extend a job offer with a base salary that is valid for the pay grade. Once Jamie accepts the offer, onboard Jamie as an employee in the HR system, assigning the correct job code, department, pay grade, and location. After onboarding, have Jamie submit a time-off request for 2 vacation days, and process the approval for this request. Finally, initiate a performance review for Jamie for the current review period.",
+    "generated_at": "2026-05-03T05:04:22.733597"
+  },
+  {
+    "task_id": "envscaler_hr_022",
+    "task": "Hire three new employees for the Software Engineering department: one Engineering Manager and two Software Engineers, assigning the manager as the supervisor for both engineers. After onboarding, promote one Software Engineer to Senior Software Engineer and update the reporting structure accordingly. Submit a 5-day vacation time-off request for the promoted engineer, ensuring it does not exceed the available balance, and then approve the request. Finally, initiate a new performance review for the promoted engineer for the current review period and set its status to \"In Progress\".",
+    "generated_at": "2026-05-03T05:04:28.734696"
+  },
+  {
+    "task_id": "envscaler_hr_023",
+    "task": "Your objective is to fully onboard a new Engineering Manager for the Software Engineering department. First, open a job requisition for an Engineering Manager in Software Engineering, specifying an appropriate location and an active manager as the hiring manager. Then, create a candidate profile for the role and process the candidate through the entire recruitment pipeline: submit their application for the requisition, advance them through all required stages up to offer, and extend a job offer with a base salary within the correct pay grade for the role. Once the candidate accepts the offer, create an employee record for the new Engineering Manager, assigning them to the Software Engineering department, the correct location, and the appropriate pay grade. Finally, initiate a new performance review for the newly hired employee for the current review period, setting its status to Draft.",
+    "generated_at": "2026-05-03T05:04:36.074944"
+  },
+  {
+    "task_id": "envscaler_hr_024",
+    "task": "Open a job requisition for a Software Engineer in the Software Engineering department. Then, create a new candidate and submit their application to the open requisition. Advance the application through all recruitment stages and extend a job offer with a base salary that fits the appropriate pay grade. Once the offer is accepted, onboard the candidate as an employee, assigning them to the Software Engineering department, the correct job code, a valid location, and pay grade. After hiring, immediately process a department transfer for the new employee from Software Engineering to Product Management. Finally, submit a valid time-off request for the employee, ensuring their time-off balance is sufficient and the request complies with all policies.",
+    "generated_at": "2026-05-03T05:04:43.922888"
+  },
+  {
+    "task_id": "envscaler_hr_025",
+    "task": "Hire a Chief Technology Officer (CTO) and a Director of Engineering, assigning both to the Information Technology department and appropriate job codes, pay grades, and a company/location of your choice. Make the Director of Engineering report to the CTO. Then, promote the Director of Engineering to VP of Engineering with a new pay grade and update their reporting line if necessary. After the promotion, submit a vacation time-off request for the newly promoted VP, ensuring the requested days do not exceed their available balance. Finally, initiate a performance review for the VP covering the current period and advance the review status from Draft to Completed.",
+    "generated_at": "2026-05-03T05:04:51.249288"
+  },
+  {
+    "task_id": "envscaler_hr_026",
+    "task": "1. Hire a Chief Technology Officer (CTO) for the Information Technology department, ensuring the correct job code, department code, location, and pay grade are used.\n2. Hire an Engineering Manager in the Software Engineering department, assigning the new CTO as their manager and ensuring all role, department, location, and pay grade assignments are valid.\n3. Open a job requisition for a Software Engineer position reporting to the newly hired Engineering Manager, specifying the appropriate department and location.\n4. Add a new candidate and submit their application to the open Software Engineer requisition, then progress the application through each recruitment stage to Offer, create a job offer within the pay grade range, and mark the offer as Accepted.\n5. Complete the hiring process for the new Software Engineer, assigning them to the Engineering Manager and Software Engineering department with appropriate job code, pay grade, and location.\n6. Initiate a performance review for the new Software Engineer for the current review period, advance the review through all required statuses, and assign an overall rating.",
+    "generated_at": "2026-05-03T05:04:58.384375"
+  },
+  {
+    "task_id": "envscaler_hr_027",
+    "task": "Create an Engineering Manager in the Software Engineering department, then hire a Software Engineer in the same department and assign them to report to the Engineering Manager you just created. Next, for the Software Engineer, submit a vacation time-off request for a number of days that does not exceed their available balance, and approve the request. Finally, initiate a performance review for the Software Engineer, progress it through all statuses to \"Approved,\" and assign an overall rating of \"Meets Expectations.\"",
+    "generated_at": "2026-05-03T05:05:05.841351"
+  },
+  {
+    "task_id": "envscaler_hr_028",
+    "task": "Onboard the initial executive and management team for the company by performing the following sub-tasks:\n\n1. Create a new employee as the Chief Executive Officer (CEO), assigning them to the appropriate department, job code, pay grade, company, and location. Then, create two additional employees: one as Chief Technology Officer (CTO) in the Information Technology department, and one as VP of Sales in the Sales department. Assign both new hires to report to the CEO.\n\n2. Promote the VP of Sales to Senior Sales Executive by updating their job code and pay grade with the appropriate event reason for a promotion, ensuring all assignment details remain valid.\n\n3. For the CTO, submit a time-off request for five vacation days, ensuring the request is within their allowed balance, and then approve the request.\n\n4. Initiate a performance review for the CEO for the current period, progress it through all required review status transitions to final approval, and assign an overall rating of \"Outstanding\" (or equivalent highest rating available in the system).",
+    "generated_at": "2026-05-03T05:05:13.169873"
+  },
+  {
+    "task_id": "envscaler_hr_029",
+    "task": "Your objective is to simulate an onboarding and HR management workflow for a newly established Software Engineering department. Complete the following steps:\n\n1. Hire three new employees:\n   - Employee A: Assign as a Director of Engineering in the Software Engineering department, based in any available location, with an appropriate executive-level pay grade.\n   - Employee B: Assign as an Engineering Manager in the Software Engineering department, reporting to Employee A, and select a suitable pay grade.\n   - Employee C: Assign as a Senior Software Engineer in the Software Engineering department, reporting to Employee B, with a matching pay grade.\n\n2. Immediately after onboarding, process a job change for Employee C by promoting them to Engineering Manager, transferring them to the Product Management department, and updating their pay grade accordingly. Assign Employee A as their new manager.\n\n3. Open a new job requisition for a Software Engineer position in the Software Engineering department, specifying Employee B as the hiring manager.\n\n4. Create a new candidate profile and submit an application for this requisition. Advance the application status to \"Interview.\"\n\n5. Initiate a performance review for Employee A for the current review period and move the review status to \"In Progress.\" \n\nEnsure all assignments comply with department, job code, pay grade, and manager constraints.",
+    "generated_at": "2026-05-03T05:05:21.473925"
+  },
+  {
+    "task_id": "envscaler_hr_030",
+    "task": "Hire a new employee as an Engineering Manager in the Software Engineering department at any available location and assign an appropriate pay grade. After the employee is hired, promote them to Director of Engineering by updating their job code, department if necessary, and pay grade. Next, submit a valid time-off request for the employee, ensuring the request does not exceed their available balance. Finally, initiate a performance review for this employee and advance the review through all required statuses until it is fully approved.",
+    "generated_at": "2026-05-03T05:05:27.461485"
+  },
+  {
+    "task_id": "envscaler_hr_031",
+    "task": "1. Hire two new employees: one as an Engineering Manager in the Software Engineering department, and another as a Junior Software Engineer in the same department, reporting to the Engineering Manager. Ensure all required job, department, location, company, and pay grade assignments are valid.\n2. Promote the Junior Software Engineer to Software Engineer and transfer them to the Product Management department, updating their pay grade as appropriate. Ensure the job change is recorded with a valid event reason and effective date.\n3. Submit and approve a paid time-off request for the promoted employee. The request should be for five days and must not exceed their available balance.\n4. Terminate the Engineering Manager, ensuring that all termination requirements are met, including using a valid termination reason code.",
+    "generated_at": "2026-05-03T05:05:34.318324"
+  },
+  {
+    "task_id": "envscaler_hr_032",
+    "task": "Onboard a new Director of Engineering in the Software Engineering department and assign them to report to the Chief Technology Officer. Then, using the new director as the hiring manager, open a requisition for a Software Engineer in the same department and location. Create a candidate for this requisition, submit their application, advance it through each stage to offer, then extend an offer with a base salary within the appropriate pay grade. Once the offer is accepted, onboard the new Software Engineer reporting to the Director of Engineering. For this new engineer, submit a vacation time-off request for three days and approve it. Finally, initiate a performance review for the engineer and advance it through all stages until it is approved.",
+    "generated_at": "2026-05-03T05:05:41.805253"
+  },
+  {
+    "task_id": "envscaler_hr_033",
+    "task": "Hire a new Chief Technology Officer (CTO) for the company by creating a new employee in the Information Technology department, assigning them the CTO job code, and placing them at an appropriate executive pay grade and location. Once the CTO is hired, have them create a new open job requisition for a Director of Engineering position within the Software Engineering department, using themselves as the hiring manager and specifying a suitable location and pay grade for the role. After the CTO is onboarded, initiate a performance review process for them by creating a new performance review for the current period and moving it to \u201cIn Progress\u201d status. Ensure all necessary assignments and references are valid and consistent with system rules and available master data.",
+    "generated_at": "2026-05-03T05:05:49.341089"
+  },
+  {
+    "task_id": "envscaler_hr_034",
+    "task": "Hire two new employees into different departments with valid job codes and pay grades, assigning one as the manager of the other. After hiring, process an internal transfer for the non-manager employee by promoting them to a new department and job code with a higher pay grade. Then, for the promoted employee, submit a time-off request that does not exceed their balance, and approve this request. Finally, initiate a performance review for the manager employee, moving it through all status stages to \"Approved\" and assigning a satisfactory overall rating.",
+    "generated_at": "2026-05-03T05:05:56.279300"
+  },
+  {
+    "task_id": "envscaler_hr_035",
+    "task": "First, create a new employee to serve as the Engineering Manager in the Software Engineering department, assigning them an appropriate pay grade and location. After the manager is created, create a second employee as a Software Engineer in the same department, ensuring they are assigned to report to the new manager and are placed within a valid pay grade. Once the Software Engineer is onboarded, submit a vacation time-off request for them for a period of your choice, making sure the request does not exceed their available balance. After submission, approve this time-off request. Finally, initiate a performance review for the Software Engineer, setting the review status to \u201cIn Progress\u201d and providing an overall rating.",
+    "generated_at": "2026-05-03T05:06:03.047705"
+  },
+  {
+    "task_id": "envscaler_hr_036",
+    "task": "Hire two new employees: first, create a Chief Technology Officer (CTO) in the Information Technology department, assigning them to a valid location and pay grade. Next, hire a Software Engineer reporting to the CTO in the Software Engineering department, ensuring all codes and pay grades are valid and the reporting line is correct. Then, promote the Software Engineer to Senior Software Engineer, updating their pay grade and job assignment accordingly. Finally, process a 5-day vacation time-off request for the promoted employee and approve it, ensuring their time-off balance is sufficient and correctly updated throughout the process.",
+    "generated_at": "2026-05-03T05:06:10.532904"
+  },
+  {
+    "task_id": "envscaler_hr_037",
+    "task": "Onboard a new Engineering Manager for the Software Engineering department, assigning them to the appropriate pay grade and location. Set this new manager as the hiring manager for a new open job requisition for a Software Engineer in their department and location. Then, simulate the full recruitment process for this requisition: create a new candidate, submit their application, move the application through the pipeline to 'Offer', extend a job offer within the appropriate pay grade salary range, and mark the offer as accepted. Finally, submit and approve a vacation time-off request for the newly hired Software Engineer after their hire is completed.",
+    "generated_at": "2026-05-03T05:06:17.747190"
+  },
+  {
+    "task_id": "envscaler_hr_038",
+    "task": "Your objective is to simulate a complete end-to-end hiring and onboarding process for a new Software Engineer in the Software Engineering department, reporting to a newly-appointed Engineering Manager. First, create an Engineering Manager employee in Software Engineering and assign them to a valid pay grade and location of your choice. Next, have this manager open a job requisition for a Software Engineer role in their department. Then, process the recruitment workflow for this requisition: create a candidate, submit their application, progress the application through each pipeline stage, and extend a job offer with a valid base salary for the pay grade. After the candidate accepts the offer, onboard them as a new employee, ensuring they are assigned to the Software Engineering department, the correct job code and pay grade, location, and the original manager as their supervisor.",
+    "generated_at": "2026-05-03T05:06:24.105945"
+  },
+  {
+    "task_id": "envscaler_hr_039",
+    "task": "A new team in the Software Engineering department is being formed. Complete the following sequence:\n\n1. Hire three new employees: one Engineering Manager and two Software Engineers. Assign them to the Software Engineering department and an appropriate location, ensuring the Engineering Manager is set as the direct manager for both Software Engineers.\n2. After hiring, transfer one Software Engineer to the Product Management department and promote them to Product Manager, setting their pay grade accordingly and ensuring their manager is valid for the new department.\n3. For the remaining Software Engineer, submit a vacation time-off request for five days, ensuring their leave balance is sufficient. Then, approve the request.\n4. Initiate a performance review for the Engineering Manager for the current review period, progress it from Draft to In Progress, then to Completed, and finally to Approved.\n5. Finally, terminate the transferred Product Manager employee, specifying a valid termination reason.",
+    "generated_at": "2026-05-03T05:06:30.542685"
+  },
+  {
+    "task_id": "envscaler_hr_040",
+    "task": "Onboard a new Engineering Manager in the Software Engineering department, ensuring the appropriate pay grade and location assignment. Once the manager is active, open a job requisition for a Software Engineer position in the same department and assign the manager as the hiring manager. Process a new candidate through the entire hiring pipeline for this requisition: create the candidate, submit their application, advance the application through all relevant stages up to offer, and extend a job offer with a base salary that is valid for the position's pay grade. After the offer is accepted, complete the hiring by updating the application status appropriately. Next, transfer the newly hired Software Engineer to the Product Management department, reflecting the appropriate event reason and job assignment. Finally, submit a time-off request for the transferred employee, ensuring it aligns with their available balance, and approve the request.",
+    "generated_at": "2026-05-03T05:06:37.962712"
+  },
+  {
+    "task_id": "envscaler_hr_041",
+    "task": "Hire two new employees: one as a Software Engineer in the Software Engineering department, and another as a Product Manager in the Product Management department, assigning them to valid job codes, departments, locations, and pay grades. After hiring, promote the Software Engineer to Senior Software Engineer, ensuring all updates use valid event reasons and pay grades. Next, submit a time-off request for the Product Manager for five vacation days, making sure the request does not exceed their available balance, and then approve it. Finally, initiate and complete a performance review for the promoted Senior Software Engineer, advancing it to the Approved status and assigning an overall rating.",
+    "generated_at": "2026-05-03T05:06:45.551338"
+  },
+  {
+    "task_id": "envscaler_hr_042",
+    "task": "Hire an Engineering Manager in the Software Engineering department with a suitable pay grade. Then, hire a Software Engineer in the same department, assigning the previously hired Engineering Manager as their direct manager. After both are hired, the Software Engineer submits a vacation time-off request for 5 days. Have the Engineering Manager approve this time-off request. Finally, initiate a performance review for the Software Engineer and advance it to \u201cCompleted\u201d status.",
+    "generated_at": "2026-05-03T05:06:51.659812"
+  },
+  {
+    "task_id": "envscaler_hr_043",
+    "task": "Onboard a new employee named Alex Chen as a Software Engineer in the Software Engineering department, assigning a suitable job code, pay grade, location, and company. After onboarding, promote Alex to Senior Software Engineer with an updated pay grade. Then, submit a vacation time-off request for Alex for 5 days and approve it, ensuring the request does not exceed Alex\u2019s available balance. Finally, initiate a performance review for Alex for the current review period and advance it through all stages until it is Approved.",
+    "generated_at": "2026-05-03T05:06:59.553396"
+  },
+  {
+    "task_id": "envscaler_hr_044",
+    "task": "Hire a Software Engineering Manager and a Software Engineer, assigning the manager as the engineer\u2019s manager. Then, promote the Software Engineer to Senior Software Engineer with a pay grade increase. Next, have the newly promoted engineer submit a vacation time-off request within their available balance, and have the manager approve it. After the vacation is approved, terminate the engineer for voluntary resignation. Finally, create a job requisition to backfill the Software Engineer position, assigning the manager as the hiring manager.",
+    "generated_at": "2026-05-03T05:07:06.627907"
+  },
+  {
+    "task_id": "envscaler_hr_045",
+    "task": "Hire a new Engineering Manager named Priya Nair in the Software Engineering department at the main company location, assigning her to the appropriate pay grade and reporting directly to the CEO. Next, hire a Software Engineer named Alex Chen into the same department and location, specifying Priya Nair as Alex\u2019s manager. After both hires, open a job requisition for a Senior Software Engineer role in Software Engineering, with Priya as the hiring manager. Progress through the full recruitment workflow: create a candidate profile for \u201cJordan Lee\u201d, submit an application to the requisition, advance the application through the pipeline to the Offer stage, and extend an offer with a base salary within the correct pay grade band. After the offer is extended, process a time-off request for Alex Chen for 3 days of vacation and approve it. Finally, initiate a performance review for Priya Nair for the current period and progress it to the Completed status.",
+    "generated_at": "2026-05-03T05:07:13.390524"
+  },
+  {
+    "task_id": "envscaler_hr_046",
+    "task": "Your task is to simulate the full hiring, onboarding, and initial HR lifecycle for a new Software Engineer in the Software Engineering department. \n\n1. First, create an Engineering Manager (select the appropriate job code, department, location, and pay grade so that a valid manager exists). \n2. Next, create a job requisition for a Software Engineer role in the Software Engineering department, assigning the newly created Engineering Manager as the hiring manager.\n3. Add a new candidate for this requisition, submit their application, and progress the application through all pipeline steps (New \u2192 Under Review \u2192 Interview \u2192 Offer).\n4. Extend a job offer to the candidate, ensuring the base salary is within the correct pay grade salary band for Software Engineer, and then mark the offer as accepted.\n5. Upon offer acceptance, onboard the candidate as a new employee in the Software Engineering department under the same manager, using the correct job code and pay grade.\n6. Have the new employee submit a time-off request for any available time-off type, ensuring their balance is sufficient.\n7. Approve the new employee\u2019s pending time-off request.\n8. Initiate a performance review for the new employee for the current period and advance the review from Draft through to Approved status, assigning an overall rating.\n\nYou must ensure that all references (e.g., department, job code, location, pay grade, manager, candidate, requisition, application, and offer) are correctly created and linked, and that all salary and status constraints are respected throughout the process.",
+    "generated_at": "2026-05-03T05:07:23.676446"
+  },
+  {
+    "task_id": "envscaler_hr_047",
+    "task": "You are the HR administrator for a technology company about to expand its Software Engineering team. Complete the following scenario:\n\n1. First, create a new employee who will serve as the Engineering Manager for the Software Engineering department. Assign them to the \"Engineering Manager\" job code, the \"Software Engineering\" department, an appropriate location, and pay grade.  \n2. Next, initiate the hiring process for a new Software Engineer reporting to this Engineering Manager. Create a job requisition for a \"Software Engineer\" role in the same department and location, with the new Engineering Manager as the hiring manager.  \n3. Create a candidate profile for an external applicant, submit their application to this requisition, and advance their application through the full pipeline up to offer. Extend a job offer to the candidate with a base salary within the correct pay grade range, and mark the offer as accepted.  \n4. Onboard the new hire as an employee, assigning the correct job code, department, location, pay grade, and the Engineering Manager as their manager.  \n5. After onboarding, submit a time-off request for the new Software Engineer for five days of vacation. Ensure the request does not exceed their available balance, and approve the request.  \n6. Following their probation period, initiate a performance review for the new Software Engineer, progress the review to completion, assign them the highest possible overall rating, and approve the review.  \n7. Finally, promote the Software Engineer to \"Senior Software Engineer\" by updating their job assignment, including updating their pay grade if necessary.",
+    "generated_at": "2026-05-03T05:07:33.637740"
+  },
+  {
+    "task_id": "envscaler_hr_048",
+    "task": "A new engineering team needs to be set up for an upcoming project. Complete the following steps:\n\n1. Hire a Director of Engineering as the team\u2019s initial manager in the Software Engineering department at the main company location, using a pay grade appropriate for the role. Assign a hire date of today.  \n2. Open a requisition for a Software Engineer reporting to the new Director of Engineering, in the same department and location.  \n3. Create a candidate profile for a new Software Engineer, submit an application to the open requisition, and progress the application through all required stages. Make a job offer for the role with a base salary within the correct pay grade, have the candidate accept the offer, and then onboard them as an employee reporting to the Director of Engineering.  \n4. Have the newly hired Software Engineer submit a vacation time-off request for 5 days, and approve the request as their manager.  \n5. Initiate a performance review for the Software Engineer for their first review period, and progress the review through all status stages to completion, assigning a satisfactory overall rating.",
+    "generated_at": "2026-05-03T05:07:41.028371"
+  },
+  {
+    "task_id": "envscaler_hr_049",
+    "task": "You are tasked with launching a new Software Engineering team within the organization. First, hire a Director of Engineering for the \"Software Engineering\" department and assign them to the appropriate job code and highest available pay grade for that role. Next, hire an Engineering Manager who reports to the Director, followed by hiring two Software Engineers who report to the Engineering Manager. Then, open a job requisition for a Senior Software Engineer in the same department, designating the Engineering Manager as the hiring manager. For this requisition, create a candidate profile, submit their application, advance the application status through all interview stages, and extend a job offer with a base salary that is valid for the pay grade. Additionally, select one of the newly hired Software Engineers to submit a time-off request for three days of vacation and approve this request. Finally, initiate a performance review for the Engineering Manager and advance its status from Draft to Approved. Each step must ensure correct reporting lines, pay grades, and compliance with all system constraints.",
+    "generated_at": "2026-05-03T05:07:51.550902"
+  },
+  {
+    "task_id": "envscaler_hr_050",
+    "task": "1. Hire a Chief Executive Officer (CEO) and a Chief Technology Officer (CTO) for the company, ensuring that the CTO reports to the CEO. Assign both to the appropriate executive job codes, pay grades, and departments, and place them in separate locations if possible.\n2. Hire an Engineering Manager in the Software Engineering department, with the CTO as their manager. Ensure the manager is assigned a valid job code and pay grade within the leadership band for engineering, and is based in the same location as the CTO.\n3. Promote the Engineering Manager to Director of Engineering, assigning them a new job code and pay grade, and update their manager to report directly to the CEO.\n4. Record a time-off request for the promoted Director of Engineering for 5 days of vacation, ensuring the request is valid and does not exceed their available time-off balance.\n5. Create a performance review for the Director of Engineering for the current review period, advance its status from draft to approved, and set an overall rating of \"Exceeds Expectations\".",
+    "generated_at": "2026-05-03T05:07:58.973001"
+  },
+  {
+    "task_id": "envscaler_hr_051",
+    "task": "Hire a new employee as an Engineering Manager in the Software Engineering department with an appropriate pay grade and location. After hiring, transfer this employee to the Product Management department and update their manager to a newly created Product Manager. Next, submit and approve a vacation time-off request for the Engineering Manager, ensuring they have sufficient balance. Finally, initiate a new performance review for the Engineering Manager, advance it through all required status stages, and assign an overall rating of \"Exceeds Expectations\" before final approval.",
+    "generated_at": "2026-05-03T05:08:04.761355"
+  },
+  {
+    "task_id": "envscaler_hr_052",
+    "task": "Simulate the complete employee lifecycle for a new hire in the Software Engineering department, as follows:\n\n1. Hire a new employee named \"Maya Patel\" in the Software Engineering department as a Software Engineer, assigning an appropriate location and pay grade. Ensure all required information for onboarding is properly set.\n2. Once hired, submit and approve a paid time-off request (e.g., for vacation) for Maya, ensuring her balance is sufficient and the request is for at least 2 days.\n3. Promote Maya to Senior Software Engineer and transfer her to the Product Management department, assigning her a suitable pay grade for the new role.\n4. Create a performance review for Maya, and progress it through the full performance review cycle, ultimately marking it as Approved with an overall rating of \"Exceeds Expectations.\"\n5. Terminate Maya's employment for a valid reason (e.g., \"Resignation\" or \"Layoff\"), ensuring her employment and job records are properly closed.\n\nAll actions must be performed in sequence, and each step must reference the correct, up-to-date information based on prior changes.",
+    "generated_at": "2026-05-03T05:08:12.538027"
+  },
+  {
+    "task_id": "envscaler_hr_053",
+    "task": "Create two new employees: one as an Engineering Manager in the Software Engineering department and another as a Junior Software Engineer reporting to this manager. After both employees are created and active, process an internal transfer for the Junior Software Engineer to move them into the Product Management department under the same manager, updating their job assignment accordingly. Then, have the Engineering Manager open a new requisition to hire a Senior Software Engineer for the Software Engineering department. Next, create a candidate and submit an application for this requisition, progress the application through all pipeline stages up to an offer, and finally extend and accept an offer for this candidate within the correct pay grade salary band.",
+    "generated_at": "2026-05-03T05:08:20.180950"
+  },
+  {
+    "task_id": "envscaler_hr_054",
+    "task": "Hire a new Software Engineer for the Software Engineering department and complete their onboarding, time-off, and performance review processes. First, create an Engineering Manager as the initial employee and assign them to the Software Engineering department. Use this manager's ID to create a new job requisition for a Software Engineer role in the same department. Next, add a candidate, submit their application to the requisition, and advance the application through all recruitment stages, making sure to extend an offer with a base salary within the correct pay grade. Once the offer is accepted, hire the candidate as a new employee, assigning them to the Software Engineering department under the same manager. After hiring, ensure the new employee has an initial vacation time-off balance, submit a vacation time-off request for them, and approve the request. Finally, initiate a performance review for the new hire and progress it through to the Approved state.",
+    "generated_at": "2026-05-03T05:08:27.955477"
+  },
+  {
+    "task_id": "envscaler_hr_055",
+    "task": "Hire a new \"Director of Engineering\" for the \"Software Engineering\" department, assigning them to the \"Information Technology\" location with an appropriate pay grade and effective hire date of today. Next, create an open requisition for a \"Senior Software Engineer\" role within the same department and location, with the newly hired director as the hiring manager. Add a candidate for the requisition, submit an application, and progress the application through review and interview stages. Extend a job offer for the senior engineer position with a base salary within the correct pay grade, have the candidate accept the offer, and finally create a new employee record for the hired senior engineer, making the director their manager.",
+    "generated_at": "2026-05-03T05:08:33.781561"
+  },
+  {
+    "task_id": "envscaler_hr_056",
+    "task": "Your task is to help the company staff its new Software Engineering and Product Management teams, and manage initial HR operations as follows:\n\n1. Onboard three new employees: one as a Software Engineer in the Software Engineering department, one as a Product Manager in the Product Management department, and one as an Engineering Manager in the Software Engineering department. For each, assign an appropriate job code, department, pay grade, and location. Set the Engineering Manager as the manager for the Software Engineer. Ensure all required employee information is provided.\n\n2. Open a new job requisition for a Senior Software Engineer in the Software Engineering department, with the Engineering Manager as the hiring manager.\n\n3. Create a new candidate for this requisition, submit their application, and move the application through the pipeline to the Offer stage.\n\n4. Extend a job offer to the candidate with a salary that fits the pay grade for Senior Software Engineer, and update the offer status to \"Accepted.\"\n\n5. Have the Product Manager employee submit a time-off request for vacation (for 3 days), ensuring their balance is sufficient, and approve this request.\n\nComplete all steps, ensuring that employee-manager relationships, salary bands, status transitions, and time-off balances are handled correctly according to business rules.",
+    "generated_at": "2026-05-03T05:08:41.517470"
+  },
+  {
+    "task_id": "envscaler_hr_057",
+    "task": "Create a new Director of Engineering in the Software Engineering department and assign this person as manager. Next, hire a Software Engineer reporting to this manager, then have the manager open a job requisition for a Junior Software Engineer in the same department. Proceed to simulate recruiting for this requisition by creating a candidate, submitting their application, advancing the application through all stages, extending and accepting a job offer within the pay grade, and hiring the candidate. After hiring, have the new Junior Software Engineer submit a vacation time-off request, and ensure the manager approves it. Finally, initiate and complete a performance review for the Software Engineer, moving it through all required review statuses to completion.",
+    "generated_at": "2026-05-03T05:08:48.123636"
+  },
+  {
+    "task_id": "envscaler_hr_058",
+    "task": "Create a Director of Engineering and a Software Engineer in the Software Engineering department, ensuring the Director is assigned as the manager of the Engineer. Next, open a new Software Engineer requisition in the same department with the Director as the hiring manager. Create a candidate for this requisition, process their application through all recruitment stages, extend and accept a job offer within the correct pay grade, and onboard the candidate as a new Software Engineer reporting to the same Director. Finally, submit a vacation time-off request for the newly hired Software Engineer and approve it.",
+    "generated_at": "2026-05-03T05:08:56.194070"
+  },
+  {
+    "task_id": "envscaler_hr_059",
+    "task": "You are tasked with hiring a new Software Engineer for the Software Engineering department, following the complete recruitment and onboarding process, then immediately transferring the new employee to the Product Management department with a new manager, and finally submitting and approving a time-off request for the employee. \n\nSpecifically, complete the following sub-tasks:\n\n1. Open a new job requisition for a Software Engineer in the Software Engineering department, assigning an appropriate hiring manager.\n2. Create a candidate named \"Alex Kim\" and submit their application to the open requisition. Progress the application through all recruitment stages, extend a job offer with a base salary within the correct pay grade range, and have the offer accepted.\n3. Onboard Alex Kim as a new employee, assigning them to the Software Engineering department, the correct job code, pay grade, and location, with their hiring manager set as their manager.\n4. Immediately transfer Alex Kim to the Product Management department and assign a new manager from that department.\n5. Submit a time-off request for Alex Kim (for any available time-off type) and approve it, ensuring the balance is sufficient. \n\nAll assignments and references (such as manager selection, pay grade, and location) must conform to the system\u2019s business rules and valid codes.",
+    "generated_at": "2026-05-03T05:09:03.491302"
+  },
+  {
+    "task_id": "envscaler_hr_060",
+    "task": "Hire two new employees: one as an Engineering Manager in the Software Engineering department, and another as a Software Engineer in the same department, reporting directly to the new manager. After both are hired, promote the Software Engineer to Senior Software Engineer and update their pay grade accordingly. Next, have the promoted employee request five days of vacation time, ensuring their balance is sufficient; then approve this time-off request. Finally, initiate a performance review for the promoted employee, move the review through each stage until it is fully approved, and assign them an \"Exceeds Expectations\" overall rating.",
+    "generated_at": "2026-05-03T05:09:12.101694"
+  },
+  {
+    "task_id": "envscaler_hr_061",
+    "task": "You are tasked with onboarding two new employees into the HRIS system and processing a time-off request for one of them. First, create a new Engineering Manager in the Software Engineering department, assigning them an appropriate job code, pay grade, and location. Next, create a new Software Engineer in the same department, ensuring their job assignment lists the Engineering Manager as their manager. After onboarding, submit a vacation time-off request for the Software Engineer that does not exceed their available vacation balance. Finally, approve the pending time-off request for the Software Engineer.",
+    "generated_at": "2026-05-03T05:09:18.514802"
+  },
+  {
+    "task_id": "envscaler_hr_062",
+    "task": "Hire a new employee named Alex Johnson into the Software Engineering department as a Software Engineer, assigning them to an appropriate location and reporting to a valid manager. After the employee is hired, promote Alex to Senior Software Engineer with a corresponding increase in pay grade. Next, submit and approve a time-off request for Alex, ensuring the request does not exceed their available balance. Finally, initiate a performance review for Alex, progressing it through all workflow stages to approval and assigning an overall rating of \"Exceeds Expectations.\"",
+    "generated_at": "2026-05-03T05:09:24.639078"
+  },
+  {
+    "task_id": "envscaler_hr_063",
+    "task": "Create a Director of Engineering employee in the Software Engineering department and assign them to any valid location and pay grade. Next, use this new Director as the manager to hire a Software Engineer in the same department and location. Then, promote the Software Engineer to Senior Software Engineer, updating their job code and pay grade accordingly. After the promotion, have the newly promoted Senior Software Engineer submit a vacation time-off request for 5 days, and then approve this time-off request.",
+    "generated_at": "2026-05-03T05:09:30.808200"
+  },
+  {
+    "task_id": "envscaler_hr_064",
+    "task": "Create a new employee in the Software Engineering department and assign them to the \"Software Engineer\" role with the appropriate pay grade. Next, create a second employee in the same department and assign them to the \"Engineering Manager\" role, setting them as the manager of the first employee. For the Software Engineer, submit a vacation time-off request for 5 days and approve it. Finally, initiate a performance review for the Software Engineer, set an overall rating of \"Meets Expectations,\" and progress the review through all status stages until it is fully approved.",
+    "generated_at": "2026-05-03T05:09:37.162790"
+  },
+  {
+    "task_id": "envscaler_hr_065",
+    "task": "Hire a new Software Engineering Manager in the \"Software Engineering\" department at the company's main location. After successfully hiring this employee, initiate a job requisition for a Senior Software Engineer role within the same department, assigning the newly hired manager as the hiring manager. Next, create a candidate profile and submit an application for this requisition. Progress the candidate's application through all necessary recruitment stages, making sure to extend a job offer with a base salary that is valid for the role's pay grade. Upon acceptance of the offer, hire the candidate as a new employee in the Senior Software Engineer role. Finally, initiate a probationary performance review for the newly onboarded Senior Software Engineer.",
+    "generated_at": "2026-05-03T05:09:43.474280"
+  },
+  {
+    "task_id": "envscaler_hr_066",
+    "task": "Onboard a new Chief Technology Officer (CTO) by creating their employee record in the Information Technology department with a suitable pay grade. Then, as the new CTO, open a job requisition to hire a Director of Engineering as their direct report. Process an external candidate for this requisition by creating a candidate profile, submitting their application, advancing the application through each required stage to offer, and extending a job offer within the correct pay band. Once the candidate accepts the offer, complete their hiring and set up the Director of Engineering as an employee in the Information Technology department, reporting to the CTO. Finally, have the newly hired Director of Engineering request paid vacation time and process the approval for this time-off request.",
+    "generated_at": "2026-05-03T05:09:50.750027"
+  },
+  {
+    "task_id": "envscaler_hr_067",
+    "task": "Onboard the company\u2019s initial leadership team and execute a series of HR actions as follows:\n\n1. Create a new employee record for a Chief Executive Officer (CEO) assigned to the \"Information Technology\" department, with valid job, location, company, and pay grade assignments.\n2. Create another new employee record for a Chief Technology Officer (CTO), assigned to the \"Software Engineering\" department, with the CEO set as their manager.\n3. Open a job requisition for an Engineering Manager position in the \"Software Engineering\" department, with the CTO as the hiring manager.\n4. Create a candidate profile, and submit an application for the Engineering Manager requisition.\n5. Progress the application through the hiring pipeline to the Offer stage, then create an offer for the candidate with a base salary that falls within the correct pay grade range for the job. Update the offer status to \"Accepted\".\n6. Hire the candidate as an Engineering Manager, assigned to the \"Software Engineering\" department and reporting to the CTO.\n7. Submit a time-off request for the newly hired Engineering Manager, ensuring the requested days do not exceed their available balance, and approve the request.",
+    "generated_at": "2026-05-03T05:09:58.262540"
+  },
+  {
+    "task_id": "envscaler_hr_068",
+    "task": "Hire a Chief Executive Officer (CEO) and then hire a Chief Technology Officer (CTO) who reports to the CEO. After both hires, submit a vacation time-off request for the CTO for three days and approve it. Next, transfer the CTO from the Software Engineering department to Product Management, ensuring the transfer is properly recorded. Finally, initiate a performance review for the CTO covering the current review period, advance the review through all necessary statuses until it is fully approved, and assign an overall rating of \"Exceeds Expectations\".",
+    "generated_at": "2026-05-03T05:10:05.111319"
+  },
+  {
+    "task_id": "envscaler_hr_069",
+    "task": "Hire a new Engineering Manager in the Software Engineering department and assign them to a suitable pay grade. Then, hire a Software Engineer in the same department, assigning the newly created Engineering Manager as their manager. After both hires, promote the Software Engineer to Senior Software Engineer and update their pay grade accordingly. Next, have the promoted employee request 3 days of vacation leave, ensuring their time-off balance is sufficient, and approve this request. Finally, initiate and complete a performance review for the promoted employee, setting the review status to Approved and assigning an overall rating of \"Exceeds Expectations\".",
+    "generated_at": "2026-05-03T05:10:11.432418"
+  },
+  {
+    "task_id": "envscaler_hr_070",
+    "task": "Hire two employees: one as an Engineering Manager in the Software Engineering department, and another as a Software Engineer in the same department with the first employee set as their manager. Next, transfer the Software Engineer to the Product Management department, updating their manager accordingly and adjusting their pay grade if appropriate. After the transfer, submit a time-off request for the Software Engineer using a valid time-off type and ensuring sufficient balance. Finally, open a job requisition for a Junior Software Engineer in Software Engineering, with the Engineering Manager as the hiring manager.",
+    "generated_at": "2026-05-03T05:10:18.009952"
+  },
+  {
+    "task_id": "envscaler_hr_071",
+    "task": "Hire a new Software Engineer and assign them to the Software Engineering department at the main company location. First, create and hire an Engineering Manager to serve as their manager. Use the recruitment process: open a job requisition for each role, create a candidate, submit an application, advance the application through the interview process, extend and accept an offer, and hire the employee. After both employees are hired, assign the Software Engineer to report to the Engineering Manager. Once hired, submit a paid time-off request for the Software Engineer and approve it. Finally, initiate a performance review for the Software Engineer and progress it through to the \"Completed\" status.",
+    "generated_at": "2026-05-03T05:10:24.381021"
+  },
+  {
+    "task_id": "envscaler_hr_072",
+    "task": "Hire an Engineering Manager in the Software Engineering department, then hire a Software Engineer in the same department who reports to the new manager. Next, promote the Software Engineer to Senior Software Engineer. After the promotion, have the employee submit a vacation time-off request for five days and ensure it is approved. Finally, initiate a performance review for the promoted engineer for the current quarter and progress it to the approved status with an overall rating of \"Exceeds Expectations\".",
+    "generated_at": "2026-05-03T05:10:30.534847"
+  },
+  {
+    "task_id": "envscaler_hr_073",
+    "task": "Create a new employee named Olivia Carter as an Engineering Manager in the Software Engineering department, selecting an appropriate job code and pay grade. Next, have Olivia open a requisition to hire a Software Engineer for her team. Then, create a candidate named Ethan Kim and submit his application to Olivia\u2019s requisition. Move Ethan\u2019s application through the recruitment pipeline up to the Offer stage, and extend him a job offer with a base salary that fits the pay grade for Software Engineer. Accept the offer on Ethan\u2019s behalf, then hire Ethan Kim as a new Software Engineer in the same department, reporting to Olivia Carter. After he is hired, have Ethan submit a vacation time-off request for five days, and have Olivia approve it. Finally, initiate a performance review for Ethan for the current review period and advance the review through all statuses until it is approved, assigning him an overall rating of \u201cExceeds Expectations.\u201d",
+    "generated_at": "2026-05-03T05:10:37.486529"
+  },
+  {
+    "task_id": "envscaler_hr_074",
+    "task": "Create three new employees: one as an Engineering Manager in Software Engineering, one as a Senior Software Engineer in Software Engineering reporting to the new manager, and one as a Product Manager in Product Management. Assign the Engineering Manager as the hiring manager for a new open requisition for a Junior Software Engineer in Software Engineering. Complete the full recruitment cycle for this requisition by creating a new candidate, submitting their application, progressing it through all pipeline stages, extending a compliant offer, and hiring the candidate. Once hired, initiate a performance review for the new Junior Software Engineer and submit a vacation time-off request for them, ensuring the request does not exceed their available balance and is approved.",
+    "generated_at": "2026-05-03T05:10:45.273310"
+  },
+  {
+    "task_id": "envscaler_hr_075",
+    "task": "Hire two new employees: one as a Senior Software Engineer in the Software Engineering department, and another as a Product Manager in the Product Management department. After both are hired, assign the Product Manager as the manager of the Senior Software Engineer by updating the Senior Software Engineer\u2019s job assignment. Then, submit a vacation time-off request for the Senior Software Engineer. Next, initiate a performance review for the Product Manager. Finally, create a job requisition for a Junior Software Engineer in the Software Engineering department, setting the Senior Software Engineer as the hiring manager.",
+    "generated_at": "2026-05-03T05:10:51.418724"
+  },
+  {
+    "task_id": "envscaler_hr_076",
+    "task": "Onboard the company's executive leadership team by creating three new employees: a Chief Executive Officer, a Chief Technology Officer, and a Chief Financial Officer, each assigned to their respective departments (Information Technology for CTO, Finance for CFO, and any appropriate department for CEO) and assigned to the appropriate pay grades and locations of your choice. Designate the CEO as the manager of both the CTO and CFO. Once the executives are created, have the CTO open a job requisition for an Engineering Manager in the Software Engineering department at any location. Then, create a candidate for that requisition, submit their application, progress them through the interview and offer stages, and extend a job offer with a valid base salary within the pay grade. Finally, after the offer is extended, have the CTO immediately request 3 days of vacation time, ensuring the request respects their available time-off balance.",
+    "generated_at": "2026-05-03T05:10:57.816997"
+  },
+  {
+    "task_id": "envscaler_hr_077",
+    "task": "Onboard a new Engineering Manager in the Software Engineering department and assign them as the manager for the following actions. Next, open a job requisition for a Software Engineer role in the same department with the new manager as the hiring manager. Then, create a new candidate, submit their application to this requisition, and progress the application through each recruitment stage until the candidate is hired as a Software Engineer reporting to the Engineering Manager. Once hired, have the new Software Engineer submit a time-off request for vacation, ensuring their balance is sufficient, and have the Engineering Manager approve it. Finally, initiate a performance review for the Software Engineer and progress it through all required stages to completion.",
+    "generated_at": "2026-05-03T05:11:05.395898"
+  },
+  {
+    "task_id": "envscaler_hr_078",
+    "task": "1. Create two new employees: one as an Engineering Manager in the Software Engineering department and another as a Software Engineer in the same department, reporting directly to the manager. Assign valid pay grades and select appropriate job codes and location for both, ensuring the manager is created first so the reporting structure is correct.\n\n2. Create a new job requisition for a Senior Software Engineer position under the Engineering Manager you just created, assigning the manager as the hiring manager.\n\n3. Add a candidate for this requisition, submit their application, and progress the application through each stage\u2014moving it from New to Offer. Extend a job offer with a base salary within the appropriate pay grade's range, then accept the offer to complete the hiring process for this new employee.\n\n4. After hiring, have the newly hired Senior Software Engineer submit a time-off request (ensure their time-off balance permits the request), and have the Engineering Manager approve this request.\n\n5. Initiate a performance review for the new Senior Software Engineer, complete it with an overall rating, and move the review through each status step until it is fully approved.",
+    "generated_at": "2026-05-03T05:11:12.449536"
+  },
+  {
+    "task_id": "envscaler_hr_079",
+    "task": "Onboard the initial executive leadership team by creating three employees: Chief Executive Officer, Chief Technology Officer, and Chief Financial Officer, assigning them to appropriate departments with valid job codes and pay grades. Then, add an Engineering Manager reporting to the CTO, and a Software Engineer reporting to the Engineering Manager, ensuring all reporting relationships and assignments are correct. Next, submit a vacation time-off request for the Software Engineer for a valid number of days, and approve the request. Finally, initiate a performance review for the Software Engineer for the current review period, advancing the review status from Draft to In Progress.",
+    "generated_at": "2026-05-03T05:11:20.810625"
+  },
+  {
+    "task_id": "envscaler_hr_080",
+    "task": "Hire three new employees into the Software Engineering department: one as an Engineering Manager, one as a Senior Software Engineer, and one as a Junior Software Engineer, each with appropriate job codes and pay grades. After hiring, assign the Engineering Manager as the manager for the other two employees. Next, have the Junior Software Engineer submit a vacation time-off request for five days, and approve it. Then, promote the Senior Software Engineer to a higher pay grade and update their job title to reflect a promotion, using the correct event reason. Finally, terminate the Engineering Manager with a valid termination reason.",
+    "generated_at": "2026-05-03T05:11:27.443770"
+  },
+  {
+    "task_id": "envscaler_hr_081",
+    "task": "Hire two new employees: one as an Engineering Manager in the Software Engineering department and another as a Senior Software Engineer reporting to the Engineering Manager. After both hires, create a new job requisition for the Software Engineer role in the same department, assigning the new Engineering Manager as the hiring manager. Then, add a new candidate and submit an application for this requisition. Progress the application to the Interview stage, then extend a job offer to the candidate with a base salary within the appropriate pay grade range. Update the offer status to Accepted. Finally, initiate a performance review for the Senior Software Engineer, advance it to Completed status, and assign an overall rating of \"Meets Expectations.\"",
+    "generated_at": "2026-05-03T05:11:34.790533"
+  },
+  {
+    "task_id": "envscaler_hr_082",
+    "task": "1. Hire two new employees: one as an Engineering Manager in Software Engineering, and the other as a Software Engineer in the same department. Assign the Engineering Manager as the manager of the Software Engineer. Ensure each employee is assigned a valid pay grade and location, with the hire date set to today.\n\n2. Create a job requisition for a Senior Software Engineer position in Software Engineering, using the Engineering Manager as the hiring manager. Ensure the requisition uses a valid job code, department, location, and pay grade.\n\n3. Add a candidate for the Senior Software Engineer role, submit an application to the requisition, advance the application through the recruitment pipeline to the Offer stage, then extend a job offer with a base salary within the pay grade's allowed range.\n\n4. Upon offer acceptance, hire the candidate as a Senior Software Engineer in Software Engineering, assigning the Engineering Manager as their manager and selecting a valid pay grade and location.\n\n5. Submit a time-off request for the Software Engineer for five vacation days, ensuring the request does not exceed their available balance, then approve the request.",
+    "generated_at": "2026-05-03T05:11:40.537916"
+  },
+  {
+    "task_id": "envscaler_hr_083",
+    "task": "Hire a Chief Technology Officer (CTO) as your first employee, assigning them to the Information Technology department and to pay grade PG_01. Next, create a new job requisition for a Software Engineer in the Software Engineering department, with the CTO as the hiring manager. Recruit a candidate for this requisition by creating a candidate profile, submitting their application, advancing the application through the pipeline from New to Offer, and then extend a job offer to the candidate at a salary within the pay grade PG_05. After the candidate accepts the offer, onboard them as a new Software Engineer reporting to the CTO. Once the Software Engineer is hired, submit a time-off request for them for five vacation days and approve it. Finally, initiate and advance a performance review for the Software Engineer, progressing it from Draft to Approved with an overall rating of \"Meets Expectations.\"",
+    "generated_at": "2026-05-03T05:11:46.256921"
+  },
+  {
+    "task_id": "envscaler_hr_084",
+    "task": "You are tasked with hiring a new Software Engineer for the Software Engineering department and fully onboarding them through their first month. Begin by creating a new employee to serve as the hiring manager and assign them as the requisition's hiring manager. Then, open a new job requisition for a Software Engineer position in the Software Engineering department at any available location, using an appropriate job code and pay grade. Next, create a candidate, submit their application for the open requisition, and progress the application all the way through to an accepted job offer with a base salary within the correct pay grade band. Upon offer acceptance, complete the hiring process so the candidate becomes an active employee. After hiring, submit and approve a time-off request for the new employee, ensuring it does not exceed their initial available balance. Finally, initiate a performance review for the new hire and progress the review from Draft to Approved status. Ensure all steps adhere to business rules and dependencies throughout the process.",
+    "generated_at": "2026-05-03T05:11:54.972871"
+  },
+  {
+    "task_id": "envscaler_hr_085",
+    "task": "You are required to simulate the complete hiring and onboarding process for two new employees in the Software Engineering department. First, open a job requisition for a Software Engineer role, then create a candidate profile and submit their application for this requisition. Advance their application through the recruitment pipeline, extend a job offer with a base salary within the appropriate pay grade, and mark the offer as accepted. Proceed to onboard the new hire as an active employee in the Software Engineering department, assigning them as an Engineering Manager. Next, open a second requisition for a Junior Software Engineer position to report to the newly hired Engineering Manager, create a candidate application, move it through the recruitment pipeline, extend and accept an appropriate offer, and hire this subordinate employee. After both hires are active, have the Engineering Manager submit a time-off request for vacation days and ensure it is approved. Finally, initiate a performance review cycle for both new employees.",
+    "generated_at": "2026-05-03T05:12:00.393142"
+  },
+  {
+    "task_id": "envscaler_hr_086",
+    "task": "Hire a new employee named Alex Chen as a Software Engineer in the Software Engineering department, assigning an appropriate pay grade and location. After hiring, initiate a job requisition for a Senior Product Manager in the Product Management department, specifying a location and assigning Alex as the hiring manager. Proceed to create a candidate profile for Jamie Lee, submit their application for the requisition, and advance their application through all recruitment pipeline stages to 'Offer'. Extend a job offer to Jamie Lee with a base salary within the correct pay grade band for Senior Product Manager, then update the offer status to 'Accepted'. Next, process a department transfer for Alex Chen from Software Engineering to Product Management, ensuring all job and department information is updated accordingly. Finally, submit a vacation time-off request for Alex Chen for a 5-day period, ensuring the request is valid with respect to their vacation balance.",
+    "generated_at": "2026-05-03T05:12:08.168628"
+  },
+  {
+    "task_id": "envscaler_hr_087",
+    "task": "Create two new employees: one as a Software Engineer in the Software Engineering department, and another as a Product Manager in the Product Management department, each with valid job codes and pay grades. After hiring, transfer the Software Engineer to the Information Technology department, assigning a new location and updating their pay grade to the next higher band; set the Product Manager as their new manager. For the Product Manager, submit a vacation time-off request for five days and approve it. Finally, terminate the Software Engineer for a valid termination reason.",
+    "generated_at": "2026-05-03T05:12:14.623659"
+  },
+  {
+    "task_id": "envscaler_hr_088",
+    "task": "Hire a new Director of Engineering to establish the Software Engineering management structure. Then, open a requisition for a Software Engineer reporting to this Director, process a candidate through the full recruitment pipeline\u2014including candidate creation, application submission, interview, offer extension (with a salary appropriate for the job\u2019s pay grade), and hiring. After the Software Engineer is hired, promote them to Senior Software Engineer. Next, have the promoted engineer submit a vacation time-off request for three days and have it approved. Finally, initiate and complete a performance review for this employee for the most recent review period, setting an overall rating of \u201cMeets Expectations.\u201d",
+    "generated_at": "2026-05-03T05:12:23.274818"
+  },
+  {
+    "task_id": "envscaler_hr_089",
+    "task": "Hire two employees into different departments with valid job codes, pay grades, and locations, ensuring one is assigned as the manager of the other. Next, create a job requisition for a Software Engineer in the Software Engineering department, using one of the new employees as the hiring manager. Add a candidate profile, submit their application for the requisition, advance the application through the stages to an offer, and extend a compliant job offer. Then, for the subordinate employee, submit a time-off request for vacation that does not exceed their annual accrual, and approve it. Finally, initiate a performance review for this subordinate, advance the review through all statuses to approval, and assign an overall rating.",
+    "generated_at": "2026-05-03T05:12:28.879077"
+  },
+  {
+    "task_id": "envscaler_hr_090",
+    "task": "You are the HR administrator for a growing technology company. Complete the following tasks:\n\n1. Hire an Engineering Manager in the Software Engineering department. Assign them to a valid location, company, and pay grade, and ensure all codes used are valid. This employee will serve as the hiring manager for subsequent hires.\n2. Open a new job requisition for a Software Engineer position in the Software Engineering department, assigning the newly hired Engineering Manager as the hiring manager.\n3. Create a candidate for this requisition and submit their application.\n4. Advance the candidate\u2019s application through the recruitment process from \u201cNew\u201d to \u201cOffer\u201d status, and extend a job offer with a base salary within the valid pay grade range for the Software Engineer role.\n5. Mark the offer as accepted, and hire the candidate as a new Software Engineer in the company, reporting to the Engineering Manager.\n6. Submit a vacation time-off request for the newly hired Software Engineer for 3 days, ensuring the request does not exceed their available balance, and approve the request.",
+    "generated_at": "2026-05-03T05:12:38.256783"
+  },
+  {
+    "task_id": "envscaler_hr_091",
+    "task": "A new Chief Technology Officer (CTO) is being hired for the company. Complete the following sequence:\n\n1. Hire a new employee as CTO, assigning them to the Information Technology department with an appropriate executive pay grade and location of your choice.  \n2. Hire an Engineering Manager as a direct report to the CTO within the Software Engineering department, selecting a suitable pay grade and location.  \n3. The Engineering Manager submits a time-off request for one full day of vacation. The CTO must review and approve this request.  \n4. The CTO opens a new requisition for a Senior Software Engineer in the Software Engineering department, specifying themselves as the hiring manager.  \n5. Create a new candidate and submit an application to the open requisition for the Senior Software Engineer. Progress the application through all appropriate stages until the candidate is hired, including extending an offer with a valid base salary for the role and recording the candidate\u2019s acceptance.  \nComplete all steps to ensure the new CTO, their direct report, and the new Senior Software Engineer are correctly added, with all relationships and statuses properly established.",
+    "generated_at": "2026-05-03T05:12:45.043252"
+  },
+  {
+    "task_id": "envscaler_hr_092",
+    "task": "A new Chief Technology Officer (CTO) is being hired to lead the company's technology organization. Complete the following workflow:\n\n1. Create a new employee record for the CTO. Assign this person to the Information Technology department, in an appropriate executive pay grade, and set their hire date to \"2024-07-01\". You must ensure all required codes (job, department, location, pay grade, company) are valid and appropriate for a CTO. The manager field can be left blank since no other employees exist.\n\n2. After hiring, the CTO is immediately assigned to serve as the hiring manager for a new requisition to fill a Senior Software Engineer position in the Software Engineering department. Create an open job requisition for this role, assigning the CTO as the hiring manager. Ensure the requisition uses a valid job code, department code, location code, and matches the typical pay grade for a Senior Software Engineer.\n\n3. A candidate, \"Jordan Lee\", applies for this requisition. Add Jordan Lee as a candidate with the email \"jordan.lee@example.com\" and submit their application to the open requisition.\n\n4. Move Jordan Lee\u2019s application through the entire hiring pipeline: advance the status from New \u2192 Under Review \u2192 Interview \u2192 Offer. Then, create a job offer for Jordan Lee with a base salary that fits within the appropriate pay grade band for a Senior Software Engineer. \n\n5. Finally, update the offer status to \"Accepted\" to complete the hiring process.\n\nEach step must follow all business rules for valid codes, salary bands, and status transitions.",
+    "generated_at": "2026-05-03T05:12:54.203210"
+  },
+  {
+    "task_id": "envscaler_hr_093",
+    "task": "Hire a new Software Engineer in the Software Engineering department, assigning them to a valid location, company, and pay grade, and set their manager as the CEO. After hiring, promote this employee to Senior Software Engineer with an appropriate pay grade adjustment and record the event with a valid promotion reason. Once promoted, submit a vacation time-off request for this employee for five days and approve it, ensuring the employee has sufficient balance. Following the promotion, create a new job requisition to backfill the now-vacant Software Engineer role in the same department and location, assigning the promoted employee as the hiring manager. Finally, create a candidate and process them through application, interview, and offer stages, making sure the offer salary is within the correct pay grade range and the offer is accepted.",
+    "generated_at": "2026-05-03T05:13:00.556681"
+  },
+  {
+    "task_id": "envscaler_hr_094",
+    "task": "Onboard three new employees into the company: one as an Engineering Manager in Software Engineering, one as a Senior Software Engineer reporting to the manager, and one as a Product Manager in Product Management. Set the Engineering Manager as the manager for the Senior Software Engineer. After onboarding, create a new open job requisition for a Junior Software Engineer role in Software Engineering, with the Engineering Manager set as the hiring manager. Then, submit a paid vacation time-off request for the Senior Software Engineer for five days, ensuring it does not exceed their available balance. Finally, initiate a performance review for the Product Manager for the current review period, setting the status to \"In Progress\".",
+    "generated_at": "2026-05-03T05:13:07.136577"
+  },
+  {
+    "task_id": "envscaler_hr_095",
+    "task": "You are tasked with establishing the foundation of the Software Engineering team for a new office. First, hire a Director of Engineering as the team\u2019s initial leader, assigning them to the \"Software Engineering\" department at any available location, with a valid pay grade for the \"Director of Engineering\" job code. Use this new Director as the hiring manager to create a job requisition for a \"Senior Software Engineer\" in the same department and location. Next, create two candidate profiles and have them both apply to the new requisition. Progress both applications through the recruitment pipeline, but extend a job offer only to the first candidate, making sure the offered salary is valid for the pay grade. Once the first candidate accepts, hire them as a new employee under the Director. Immediately transfer this new hire to the \"Product Management\" department, ensuring all references remain valid. Finally, initiate a performance review for this employee after their transfer.",
+    "generated_at": "2026-05-03T05:13:15.171200"
+  },
+  {
+    "task_id": "envscaler_hr_096",
+    "task": "Your objective is to fully onboard a new Senior Software Engineer and set up their early HR lifecycle. First, create a new employee named Jamie Chen as a Senior Software Engineer in the Software Engineering department at any valid location, assigning them to the appropriate pay grade and reporting to a valid manager. Next, create a job requisition for a Product Manager role in the Product Management department and location of your choice, with Jamie Chen set as the hiring manager. Then, create a candidate named Alex Morgan, submit an application for the Product Manager requisition, progress Alex\u2019s application through each recruitment stage up to \u201cOffer,\u201d and create a job offer for Alex with a base salary within the allowed range for the Product Manager\u2019s pay grade. Afterward, assign Alex Morgan as a new employee in the Product Management department, reporting to Jamie Chen. Finally, initiate a performance review for Alex Morgan for their first review period and progress it through to \u201cApproved\u201d status.",
+    "generated_at": "2026-05-03T05:13:23.807282"
+  },
+  {
+    "task_id": "envscaler_hr_097",
+    "task": "The company is expanding its Software Engineering team and needs to fill a new Software Engineer position in the Information Technology department at the company's primary location. Complete the following multi-part process:\n\n1. Open a new job requisition for a Software Engineer role in the Information Technology department. Assign the hiring manager to be the Director of Engineering (the role, not a specific person).  \n2. Create a candidate profile for \"Alex Johnson\" with the email \"alex.johnson@example.com\", and submit their application for the newly created requisition.  \n3. Progress Alex Johnson\u2019s application from New to Offer status, ensuring each stage is properly advanced.  \n4. Extend a job offer to Alex Johnson with a base salary that falls within the pay grade for the Software Engineer role.  \n5. Mark the offer as accepted.  \n6. Onboard Alex Johnson as a new employee in the Software Engineering team at the same location, with the correct job code, department, pay grade, and assign the Director of Engineering as their manager.  \n\nEnsure all assignments are consistent with available departments, job codes, pay grades, and location information from the system, and that all dependencies between requisition, application, offer, and employee creation are fully handled.",
+    "generated_at": "2026-05-03T05:13:31.062930"
+  },
+  {
+    "task_id": "envscaler_hr_098",
+    "task": "Onboard a new Director of Engineering by creating a new employee in the Software Engineering department and assign them as the manager for two newly hired Software Engineers. For one of these Software Engineers, process a promotion to Senior Software Engineer within the same department and update their pay grade accordingly. For the other Software Engineer, submit a vacation time-off request for five days and approve it, ensuring the employee\u2019s time-off balance is sufficient. Finally, complete a performance review for the newly promoted Senior Software Engineer, marking the review as Approved with an overall rating of \"Exceeds Expectations.\"",
+    "generated_at": "2026-05-03T05:13:38.829011"
+  },
+  {
+    "task_id": "envscaler_hr_099",
+    "task": "Onboard the company\u2019s first employee as the Director of Engineering in the Software Engineering department, assigning them to the appropriate pay grade and location. Once this employee is active, create a job requisition for a Software Engineer role in the same department, assigning the new Director as the hiring manager. Then, add a candidate for this requisition, submit their application, and progress it through the pipeline: move the application to interview, then extend a job offer with a base salary within the correct pay grade range. Once the candidate accepts, complete the hiring process and ensure the new Software Engineer reports to the Director of Engineering.",
+    "generated_at": "2026-05-03T05:13:44.837663"
+  }
+]

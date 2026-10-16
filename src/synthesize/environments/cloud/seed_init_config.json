@@ -1,0 +1,373 @@
+{
+  "accounts": {
+    "acc1": {
+      "account_id": "acc1",
+      "name": "Alice Chen",
+      "role": "admin",
+      "quotas": {
+        "instance_limit": 5,
+        "vpc_limit": 3,
+        "image_limit": 10
+      },
+      "billing_info": {
+        "plan": "enterprise",
+        "currency": "USD"
+      }
+    },
+    "acc2": {
+      "account_id": "acc2",
+      "name": "Bob Patel",
+      "role": "developer",
+      "quotas": {
+        "instance_limit": 3,
+        "vpc_limit": 2,
+        "image_limit": 5
+      },
+      "billing_info": {
+        "plan": "standard",
+        "currency": "USD"
+      }
+    },
+    "acc3": {
+      "account_id": "acc3",
+      "name": "Catherine Lee",
+      "role": "viewer",
+      "quotas": {
+        "instance_limit": 2,
+        "vpc_limit": 1,
+        "image_limit": 3
+      },
+      "billing_info": {
+        "plan": "basic",
+        "currency": "USD"
+      }
+    }
+  },
+  "regions": {
+    "us-east-1": {
+      "region_name": "us-east-1",
+      "status": "enabled",
+      "services_available": [
+        "EC2",
+        "S3"
+      ]
+    },
+    "eu-central-1": {
+      "region_name": "eu-central-1",
+      "status": "enabled",
+      "services_available": [
+        "EC2",
+        "RDS"
+      ]
+    },
+    "ap-south-1": {
+      "region_name": "ap-south-1",
+      "status": "disabled",
+      "services_available": [
+        "EC2"
+      ]
+    }
+  },
+  "availability_zones": {
+    "us-east-1a": {
+      "zone_name": "us-east-1a",
+      "region_name": "us-east-1",
+      "status": "available"
+    },
+    "us-east-1b": {
+      "zone_name": "us-east-1b",
+      "region_name": "us-east-1",
+      "status": "available"
+    },
+    "eu-central-1a": {
+      "zone_name": "eu-central-1a",
+      "region_name": "eu-central-1",
+      "status": "available"
+    },
+    "eu-central-1b": {
+      "zone_name": "eu-central-1b",
+      "region_name": "eu-central-1",
+      "status": "available"
+    },
+    "ap-south-1a": {
+      "zone_name": "ap-south-1a",
+      "region_name": "ap-south-1",
+      "status": "available"
+    }
+  },
+  "vpcs": {
+    "vpc-001": {
+      "vpc_id": "vpc-001",
+      "cidr_block": "10.0.0.0/16",
+      "region": "us-east-1",
+      "state": "available",
+      "owner_account": "acc1"
+    },
+    "vpc-002": {
+      "vpc_id": "vpc-002",
+      "cidr_block": "10.1.0.0/16",
+      "region": "eu-central-1",
+      "state": "available",
+      "owner_account": "acc2"
+    },
+    "vpc-003": {
+      "vpc_id": "vpc-003",
+      "cidr_block": "10.2.0.0/16",
+      "region": "us-east-1",
+      "state": "available",
+      "owner_account": "acc3"
+    }
+  },
+  "subnets": {
+    "subnet-001": {
+      "subnet_id": "subnet-001",
+      "vpc_id": "vpc-001",
+      "availability_zone": "us-east-1a",
+      "cidr_block": "10.0.1.0/24",
+      "status": "available"
+    },
+    "subnet-002": {
+      "subnet_id": "subnet-002",
+      "vpc_id": "vpc-001",
+      "availability_zone": "us-east-1b",
+      "cidr_block": "10.0.2.0/24",
+      "status": "available"
+    },
+    "subnet-003": {
+      "subnet_id": "subnet-003",
+      "vpc_id": "vpc-002",
+      "availability_zone": "eu-central-1a",
+      "cidr_block": "10.1.1.0/24",
+      "status": "available"
+    },
+    "subnet-004": {
+      "subnet_id": "subnet-004",
+      "vpc_id": "vpc-003",
+      "availability_zone": "us-east-1a",
+      "cidr_block": "10.2.1.0/24",
+      "status": "available"
+    }
+  },
+  "security_groups": {
+    "sg-001": {
+      "group_id": "sg-001",
+      "vpc_id": "vpc-001",
+      "name": "web-sg",
+      "description": "Security group for web servers",
+      "ingress_rules": [
+        {
+          "ip_protocol": "tcp",
+          "from_port": 22,
+          "to_port": 22,
+          "cidr_ip": "203.0.113.0/24"
+        },
+        {
+          "ip_protocol": "tcp",
+          "from_port": 80,
+          "to_port": 80,
+          "cidr_ip": "0.0.0.0/0"
+        },
+        {
+          "ip_protocol": "tcp",
+          "from_port": 443,
+          "to_port": 443,
+          "cidr_ip": "0.0.0.0/0"
+        }
+      ],
+      "egress_rules": [
+        {
+          "ip_protocol": "all",
+          "from_port": 0,
+          "to_port": 0,
+          "cidr_ip": "0.0.0.0/0"
+        }
+      ]
+    },
+    "sg-002": {
+      "group_id": "sg-002",
+      "vpc_id": "vpc-001",
+      "name": "db-sg",
+      "description": "Security group for database tier",
+      "ingress_rules": [
+        {
+          "ip_protocol": "tcp",
+          "from_port": 3306,
+          "to_port": 3306,
+          "cidr_ip": "10.0.0.0/16"
+        }
+      ],
+      "egress_rules": [
+        {
+          "ip_protocol": "all",
+          "from_port": 0,
+          "to_port": 0,
+          "cidr_ip": "0.0.0.0/0"
+        }
+      ]
+    },
+    "sg-003": {
+      "group_id": "sg-003",
+      "vpc_id": "vpc-002",
+      "name": "app-sg",
+      "description": "Security group for application servers",
+      "ingress_rules": [
+        {
+          "ip_protocol": "tcp",
+          "from_port": 8080,
+          "to_port": 8080,
+          "cidr_ip": "0.0.0.0/0"
+        }
+      ],
+      "egress_rules": [
+        {
+          "ip_protocol": "all",
+          "from_port": 0,
+          "to_port": 0,
+          "cidr_ip": "0.0.0.0/0"
+        }
+      ]
+    },
+    "sg-004": {
+      "group_id": "sg-004",
+      "vpc_id": "vpc-003",
+      "name": "analytics-sg",
+      "description": "Security group for analytics workloads",
+      "ingress_rules": [
+        {
+          "ip_protocol": "tcp",
+          "from_port": 22,
+          "to_port": 22,
+          "cidr_ip": "10.2.0.0/16"
+        }
+      ],
+      "egress_rules": [
+        {
+          "ip_protocol": "all",
+          "from_port": 0,
+          "to_port": 0,
+          "cidr_ip": "0.0.0.0/0"
+        }
+      ]
+    }
+  },
+  "images": {
+    "img-public-001": {
+      "image_id": "img-public-001",
+      "name": "Ubuntu 20.04 LTS",
+      "operating_system": "Ubuntu 20.04",
+      "root_device_type": "ebs",
+      "creation_date": "2022-01-15T12:00:00Z",
+      "visibility": "public",
+      "owner_account": "acc1"
+    },
+    "img-public-002": {
+      "image_id": "img-public-002",
+      "name": "Amazon Linux 2",
+      "operating_system": "Amazon Linux 2",
+      "root_device_type": "ebs",
+      "creation_date": "2021-06-10T08:30:00Z",
+      "visibility": "public",
+      "owner_account": "acc2"
+    },
+    "img-private-001": {
+      "image_id": "img-private-001",
+      "name": "Custom App Image",
+      "operating_system": "CentOS 7",
+      "root_device_type": "ebs",
+      "creation_date": "2023-03-05T14:20:00Z",
+      "visibility": "private",
+      "owner_account": "acc1"
+    },
+    "img-private-002": {
+      "image_id": "img-private-002",
+      "name": "Data Analytics Image",
+      "operating_system": "Ubuntu 22.04",
+      "root_device_type": "ebs",
+      "creation_date": "2022-11-20T09:45:00Z",
+      "visibility": "private",
+      "owner_account": "acc3"
+    }
+  },
+  "instances": {
+    "i-001": {
+      "instance_id": "i-001",
+      "instance_type": "t2.micro",
+      "state": "running",
+      "region": "us-east-1",
+      "availability_zone": "us-east-1a",
+      "image_id": "img-public-001",
+      "key_pair": "key-us-east-1",
+      "security_groups": [
+        "sg-001"
+      ],
+      "public_ip": "203.0.113.10",
+      "private_ip": "10.0.1.10",
+      "subnet_id": "subnet-001",
+      "launch_time": "2023-04-05T12:34:56Z",
+      "owner_account": "acc1"
+    },
+    "i-002": {
+      "instance_id": "i-002",
+      "instance_type": "t2.small",
+      "state": "stopped",
+      "region": "us-east-1",
+      "availability_zone": "us-east-1b",
+      "image_id": "img-private-001",
+      "key_pair": "key-us-east-1b",
+      "security_groups": [
+        "sg-002"
+      ],
+      "public_ip": "203.0.113.11",
+      "private_ip": "10.0.2.11",
+      "subnet_id": "subnet-002",
+      "launch_time": "2023-05-12T09:15:30Z",
+      "owner_account": "acc1"
+    },
+    "i-003": {
+      "instance_id": "i-003",
+      "instance_type": "t3.medium",
+      "state": "running",
+      "region": "eu-central-1",
+      "availability_zone": "eu-central-1a",
+      "image_id": "img-public-002",
+      "key_pair": "key-eu-central-1",
+      "security_groups": [
+        "sg-003"
+      ],
+      "public_ip": "203.0.113.20",
+      "private_ip": "10.1.1.20",
+      "subnet_id": "subnet-003",
+      "launch_time": "2023-06-20T16:45:00Z",
+      "owner_account": "acc2"
+    },
+    "i-004": {
+      "instance_id": "i-004",
+      "instance_type": "t2.micro",
+      "state": "terminated",
+      "region": "us-east-1",
+      "availability_zone": "us-east-1a",
+      "image_id": "img-private-002",
+      "key_pair": "key-us-east-1c",
+      "security_groups": [
+        "sg-004"
+      ],
+      "public_ip": "203.0.113.12",
+      "private_ip": "10.2.1.12",
+      "subnet_id": "subnet-004",
+      "launch_time": "2023-07-01T10:00:00Z",
+      "owner_account": "acc3"
+    }
+  },
+  "tags": {
+    "i-001": {
+      "Env": "prod",
+      "Owner": "Alice"
+    },
+    "vpc-001": {
+      "Project": "WebApp"
+    },
+    "sg-001": {
+      "Purpose": "WebIngress"
+    }
+  }
+}

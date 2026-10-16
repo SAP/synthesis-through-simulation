@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "synthesis-through-simulation"
+version = "0.1.0"
+description = "LLM agent-based enterprise data synthesis through API simulation"
+requires-python = ">=3.13,<3.14"
+dependencies = ["openai", "faker", "python-dotenv", "pydantic>=2.0"]
+
+[project.optional-dependencies]
+test = ["pytest", "ruff"]
+langfuse = ["langfuse"]
+generalist = ["deepagents>=0.5", "langchain-anthropic>=1.0", "langchain-openai>=0.2", "sqlite-vec>=0.1"]
+
+[project.scripts]
+synthesize = "synthesize.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/synthesize"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]   # pycodestyle errors, pyflakes, warnings, isort
+ignore = ["E501", "E402"]        # line-length handled separately; late imports are intentional
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

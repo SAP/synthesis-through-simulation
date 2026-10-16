@@ -40,61 +40,11 @@ REPO_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
 from synthesize.benchmarking._utils import js_divergence
+from synthesize.write_tools import WRITE_TOOLS as _WRITE_TOOLS
+from synthesize.write_tools import is_successful_write as _is_successful_write
 
 N_BOOT = 1000
 ALPHA = 0.05
-
-# ---------------------------------------------------------------------------
-# Write-tool registry (per environment)
-# Derived from each GeneralistSynthesizer.INTENT_TO_WRITE_TOOLS — these are
-# the only tools that mutate DB state; everything else is a read-only query.
-# ---------------------------------------------------------------------------
-
-_WRITE_TOOLS: dict[str, frozenset[str]] = {
-    "airline": frozenset({
-        "book_reservation", "cancel_reservation",
-        "update_reservation_flights", "update_reservation_baggages",
-        "update_reservation_passengers",
-    }),
-    "retail": frozenset({
-        "create_order", "add_order_item", "add_payment_record",
-        "update_order_status", "set_return_details", "set_exchange_details",
-    }),
-    "banking": frozenset({
-        "open_account", "deposit", "withdraw", "transfer",
-    }),
-    "ecommerce": frozenset({
-        "create_order", "add_order_item", "confirm_order",
-        "cancel_order", "update_shipping_address", "restock_product",
-    }),
-    "pharmacy": frozenset({
-        "create_prescription", "fill_prescription", "cancel_prescription",
-    }),
-    "forum": frozenset({
-        "create_thread", "create_post", "close_thread",
-    }),
-    "university": frozenset({
-        "enroll_student", "drop_student", "add_to_waitlist",
-    }),
-    "it_management": frozenset({
-        "create_ticket", "assign_ticket", "resolve_ticket", "update_ticket",
-    }),
-    "cloud": frozenset({
-        "create_vpc", "create_subnet", "create_security_group",
-        "launch_instance", "start_instance", "stop_instance", "terminate_instance",
-    }),
-    "hr": frozenset({
-        "create_employee", "update_job", "terminate_employee",
-        "create_time_off_request", "approve_time_off_request",
-        "create_requisition", "create_candidate", "create_application",
-        "update_application", "create_offer", "update_offer", "update_review",
-    }),
-    "obfuscated_airline": frozenset({
-        "book_object_c", "set_object_c_status_a",
-        "update_object_c_object_bs", "update_object_c_baggages",
-        "update_object_c_object_ds",
-    }),
-}
 
 
 # ---------------------------------------------------------------------------
@@ -227,19 +177,6 @@ def _find_trajectories(run_dir: Path | None, env: str) -> Path | None:
         if p.exists():
             return p
     return None
-
-
-def _is_successful_write(tc: dict, write_tools: frozenset) -> bool:
-    """A write call is successful iff it targets a write tool and did not error."""
-    if tc.get("tool") not in write_tools:
-        return False
-    if tc.get("is_error", False):
-        return False
-    # Fallback for older GP trajectories that encode errors in the result string
-    result = tc.get("result", "")
-    if isinstance(result, str) and result.lower().startswith("error"):
-        return False
-    return True
 
 
 def _compute_write_ops(run_dir: Path | None, env: str) -> dict:

@@ -60,6 +60,21 @@ def test_resolve_llm_api_override(monkeypatch):
     assert resolve_llm_api("gpt-4.1") == "anthropic"
 
 
+def test_count_successful_writes():
+    from synthesize.write_tools import count_successful_writes, write_tools_for
+
+    assert "book_reservation" in write_tools_for("airline")
+    calls = [
+        {"tool": "list_users", "is_error": False},                       # read — ignored
+        {"tool": "book_reservation", "is_error": False, "result": "ok"},  # counts
+        {"tool": "book_reservation", "is_error": True},                   # errored — ignored
+        {"tool": "cancel_reservation", "result": "Error: policy"},        # error in result
+    ]
+    assert count_successful_writes(calls, "airline") == 1
+    # Unknown env has no write tools, so nothing counts.
+    assert count_successful_writes(calls, "does_not_exist") == 0
+
+
 def test_cli_help():
     proc = _run("--help")
     assert proc.returncode == 0

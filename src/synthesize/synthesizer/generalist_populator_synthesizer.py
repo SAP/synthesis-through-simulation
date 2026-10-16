@@ -95,6 +95,7 @@ class GeneralistPopulatorSynthesizer(Synthesizer):
         from synthesize.exploration.manifest import ExplorationManifest
         from synthesize.synthesizer._llm import build_chat_model
         from synthesize.synthesizer.generalist_populator import GeneralistPopulator
+        from synthesize.write_tools import count_successful_writes
 
         load_dotenv()
 
@@ -165,12 +166,20 @@ class GeneralistPopulatorSynthesizer(Synthesizer):
                 pass
             manifest.close()
 
+        tool_calls = [tc.model_dump() for tc in result.tool_calls]
+        error_count = sum(1 for tc in result.tool_calls if tc.is_error)
+        successful_writes = count_successful_writes(tool_calls, env_slug)
         trajectory = {
             "run_id": result.run_id,
             "intent_name": result.intent_name,
             "task_description": result.task_description,
-            "tool_calls": [tc.model_dump() for tc in result.tool_calls],
+            "tool_calls": tool_calls,
             "final_message": result.final_message,
+            "total_steps": len(tool_calls),
+            "error_count": error_count,
+            "successful_writes": successful_writes,
+            # A trajectory succeeds if it ran cleanly and populated real data.
+            "success": error_count == 0 and successful_writes >= 1,
         }
         return SynthesisResult(
             synthesizer=self.name,

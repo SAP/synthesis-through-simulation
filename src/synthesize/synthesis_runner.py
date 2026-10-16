@@ -474,7 +474,8 @@ def cmd_batch(args) -> None:
                     if "success" in traj:
                         mark = "✓" if traj["success"] else "✗"
                         print(
-                            f"{mark}  steps={traj.get('total_steps', '?')} errors={traj.get('error_count', '?')}"
+                            f"{mark}  writes={traj.get('successful_writes', '?')} "
+                            f"steps={traj.get('total_steps', '?')} errors={traj.get('error_count', '?')}"
                         )
                         if traj.get("success"):
                             success_count += 1
